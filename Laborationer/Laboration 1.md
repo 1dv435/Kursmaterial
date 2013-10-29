@@ -57,31 +57,42 @@ Det första vi ska göra är att komma igång med git och sätta upp vår utveck
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
 
 3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1dv435-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "xx222yy-1dv435-laborationer".*
-
+<p>
 ![Skapa nytt repro, GitHub][github-add-repro]  
+</p>
 
 4. Lägg till användaren "1dv435" som medarbetare på repositoriet. *OBSERVERA att kontonamnet på bilden skiljer sig från det DU ska ange*
  
 Klicka in på repositoriet -> Settings (verktygen ute till höger) -> Collaboraters
+<p>
 ![Lägg till medarbetare, GitHub][github-add-user]
-*OBSERVERA att kontonamnet på bilden skiljer sig från det DU ska ange*
+</p>
+*OBSERVERA att kontonamnet på bilden skiljer sig från det DU ska ange som är 1dv435*
 
 5. Skapa en README.md-fil i ditt repositorie i vilken du skriver lite kort om vad syftet med repositoriet är.
 
-Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. 
+Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. Nästa steg är att skapa en "branch" som heter "gh-pages" och ta bort vår gren master så att den inte ställer till det för oss i början. Genom att använda grenen gh-pages gör att dina HTML-filer kommer att publiceras via GitHub-pages.
+
+1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
+<p>![Lägg till branch, GitHub][github-add-ghpages] </p>
+
+2. Klicka på "Settings" och välj att "gh-pages" ska vara "Default Branch".
+<p>![Sätt gh-pages som default branch, GitHub][github-default-branch] </p>
+
+3. Radera grenen master genom att klicka på fliken "2 branch". Klicka på "View merged branches" och sedan "Delete branch" på raden med Master. <p>![][github-deletemaster]</p>
 
 Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda. Vilken utvecklingsmiljö du använder nu är helt upp till dig själv (se kurshemsidan för mer information). Resterande del av denna handledningen är skriven utifrån Cloud9, men det är inga problem att göra laborationerna med en annan editor och med githubs egna grafiska program.
 
-För mer information om de olika sätten att arbeta i kursen och samtidigt versionshantera sin kod läs noga sidan om utvecklingsverktygen som finns på kurshemsidan.
+För mer information om de olika sätten att arbeta i kursen och samtidigt versionshantera sin kod **läs noga sidan om utvecklingsverktygen som finns på kurshemsidan.**
 
 ## Uppgift 1.1 - Gör din första commit till github
-Välj den metod du vill använda för att jobba i denna kurs. Observera att du kan blanda de olika sätten beroende på vart du sitter och utvecklar. Följ sedan den guide för att göra din första commit som finns på kurshemsidan under rubriken "Utvecklingsmiljö".
+Välj det alternativ du vill använda för utvecklingen genom att noga läsa igenom sidan ["Utvecklingsverktyg"](//coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/) på kursens webbplats. Du kommer där få instruktioner hur du gör din första commit i respektive alternativ.
  
 ## Uppgift 1.2 – Ett första dokument
 Under kursens laborationer kommer du steg för steg att bygga upp en blogg, eller enklare hemsida som ska kunna användas för att bland annat presentera laborationer på. 
 
 Det första steget vi ska ta nu är att skapa ett första html-dokument som kommer att innehålla en presentation över dig, vad du gjort tidigare etc. 
-Du är fri att själv forma innehållet men det vore intressant att bland annat få veta följande:
+Du är fri att själv forma innehållet men det vore intressant, men absolut inget krav, att bland annat få veta följande:
 
 * Intressen
 * Familj
@@ -105,12 +116,9 @@ För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följand
 * Minst en lista som ligger inuti en annan lista.
 * Minst en kommentar
 
-När du testat sidan och känner dig klar så ska du:
+**När du testat sidan och känner dig klar så gör du en commit av ditt arbete d.v.s. skickar upp dina filer till github.**
 
-1. Göra en commit i git. (`git add .` följt av `git commit -am 'Meddelande'`)
-2. Göra en synkning mot GitHub. (`git push`)
 
-4. Testa att validera ditt dokument. 
 
 ### Validera
 Du validerar ditt dokument genom att skriva in adressen till dokumentet i validatorn på http://validator.w3.org/

@@ -79,7 +79,7 @@ Dessa editorer gör att man jobbar med filerna lokalt på din egen dator och vi 
 Informationsfilmer hur man installerar och använder dessa hittar Du på:
 [http://coursepress.lnu.se/info](http://coursepress.lnu.se/info/manual/githubklienter-macwin/)
 
-##### Uppgift att göra
+#### Uppgift att göra
 Försök nu göra samma uppgift som under rubriken "Cloud9 och GitHub" och skapa en .gitignore-fil och skicka upp den till github.
 
 ##3. Dreamweaver och tortoisegit - Campusstudenter
@@ -89,7 +89,7 @@ När du öppnar Dreamweaver kan du välja att skapa en ny HTML-fil. Programmet h
 
 Tortoisegit är ett annat program som finns installerat i salen som vi kommer använda för att synkronisera våra filer mellan p:/ och github.
 
-##### Uppgift att göra
+#### Uppgift att göra
 Om du väljer denna variant ska vi försöka göra sak som  beskrivits under rubriken "Cloud9 och GitHub" ovan.
 
 1. Börja med att bege dig till din githubsida och leta efter "HTTPS clone URL" (nere i högra hörnet). Kopiera den adress som står i textrutan där. Den bör se ut liknande: https://github.com/xx222xx/xx222xx-1dv435-laborationer.git
