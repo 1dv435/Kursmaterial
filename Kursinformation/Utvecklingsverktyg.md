@@ -1,6 +1,6 @@
 ## Github - Där dina filer sparas
 
-I denna kursen ska vi använda ett versionshanteringssytem för hantering av de filer du skapar. Systemet heter Git och är väl använt, främst inom programvarutveckling. En väldigt populär tjänst där utvecklare samlar sin kod är <"//github.com">. Det är den tjänsten som vi ska använda i denna kurs och det är där du alltså ska spara din kod och ockås där vi kursansvariga kommer åt din kod. Vi vill alltså *inte* ha några mejl med kod inskickad.
+I denna kursen ska vi använda ett versionshanteringssytem för hantering av de filer du skapar. Systemet heter Git och är väl använt, främst inom programvarutveckling. En väldigt populär tjänst där utvecklare samlar sin kod är [github.com.](//github.com) . Det är den tjänsten som vi ska använda i denna kurs och det är där du alltså ska spara din kod och ockås där vi kursansvariga kommer åt din kod. Vi vill alltså *inte* ha några mejl med kod inskickad.
 
 
 [Mer information om git och github finns i denna guide.](//coursepress.lnu.se/info/manual/kom-igang-med-github/)  
@@ -38,13 +38,18 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 7. Allt klart. Börja editera genom att klicka på "Start editing".
 
 
-En presentation och kom igång-guide:<br />
+En presentation och kom igång-guide:
+<p>
 <iframe src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" width="640" height="360"></iframe>
+</p>
 
 ### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 
-Terminalen i Cloud9: <br />![Cloud 9 - terminalen][c9-terminal]
+Terminalen i Cloud9:
+<p>
+![Cloud 9 - terminalen][c9-terminal]
+</p>
 
 ### Uppgift att göra
 Det första vi ska göra är att skapa en så kallad ignore-fil som gör att cloud9 inte skickar upp massa onödiga filer till github. I samband med detta får vi också en genomgång hur det är tänkt att man kan arbeta med github och cloud9.
@@ -52,14 +57,11 @@ Det första vi ska göra är att skapa en så kallad ignore-fil som gör att clo
 Börja med att skapa en ny fil som du ger namnet *.gitignore* (observera att detta är en dold fil då den inleds med en punkt). I denna fil ska vi nu skriva en rad och sedan skicka upp till github. När du skapar denna fil kan det hända att den "försvinner" från vänstermenyn och inte går att öppna. Detta beror just på att det är en dold-fil och vi får öppna den på ett annat sätt (detta sätt kommer inte behövas sedan när du börjar jobba med html-filer).
 
 För att öppna filen tittar du längst ner i fönstret och bör se en flik som heter "Terminal".
-I denna terminal lskriver du: *open .gitignore* , Då bör filen öppnas.
+I denna terminal lskriver du: **open .gitignore** , Då bör filen öppnas.
 
-I denna fil (.gitignore) skriver du endas: *.c9revisions
-
+I denna fil (.gitignore) skriver du endas: **.c9revisions**
 Detta talar om att cloud9 inte ska skicka med massa onödiga filer till ditt github-konto.
-
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
-
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
 
 1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda filer läggs nu till till versionshanteringen. Även några filer från Cloud9s konfiguration läggs till men vi bryr oss inte om det i nuläget.*
@@ -98,21 +100,26 @@ Om du väljer denna variant ska vi försöka göra sak som  beskrivits under rub
 1. Börja med att bege dig till din githubsida och leta efter "HTTPS clone URL" (nere i högra hörnet). Kopiera den adress som står i textrutan där. Den bör se ut liknande: https://github.com/xx222xx/xx222xx-1dv435-laborationer.git
 	Denna adress ska vi använda när vi ska hämta ner ditt githubrepositorie till p:/. 
 	
-2. Skapa en mapp med lämpligt namn på p: och högerklicka i den mappen. Du bör då få upp olika alternativ varav ett säger "Git clone". I textrutan för URL, skriver du in adressen du kopierade från github. Tryck OK för att spara ner dina filer från github (det är möjligt att om du har ett privat repositorie får du ange användarnamn och lösenord). Du har nu synkat ner ditt github-repositorie till p:/.<br />
+2. Skapa en mapp med lämpligt namn på p: och högerklicka i den mappen. Du bör då få upp olika alternativ varav ett säger "Git clone". I textrutan för URL, skriver du in adressen du kopierade från github. Tryck OK för att spara ner dina filer från github (det är möjligt att om du har ett privat repositorie får du ange användarnamn och lösenord). Du har nu synkat ner ditt github-repositorie till p:/.
+<p>
 ![Clone window][clone]
+</p>
 
 3. Nu kan du börja att skapa nya filer och göra "commits" till github. Skapa en fil *.gitignore* i din mapp och fyll den enligt tidigare instruktioner  
 
 4. Du vill nu skicka upp ditt arbete till github och ska göra en commit.  Högerklicka igen på mappen och välj "git Commit...". 
 
 
-5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push".<br /> 
+5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push".
+	<p>
 	![git commit][git_commit]
+	</p>
 	Här kan du få behöva ange ditt användarnamn och lösenord till github. 
 
 6. I nästa dialogruta väljer du OK.Går allt vägen skickas nu dina filer upp tillsammans med ditt meddelande och du bör se förändringarna på din github-sida.
-<br />
+<p>
 ![git push][git_push]
+</p>
 
 6. Har du t.ex. suttit hemma och jobbat och skickat upp filer därifrån till github måste du innan du startar med ditt arbete i skolan högerklicka på mappen och välja "git sync" för att få ner förändringarna från github till p: och börja jobba därifrån.
 
