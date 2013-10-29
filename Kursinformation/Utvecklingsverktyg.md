@@ -14,7 +14,7 @@ I denna kurs kommer du att skapa webbsidor från grunden vilket innebär att du 
 
 Du är fri att själv välja vilken utvecklingsmiljö (IDE, integrerad utvecklingsmiljö) du ska använda. Här kommer dock lite vägledning och tips i denna fråga.
 
-### 1. Cloud9 med integrerad koppling till github - Passar både campus och distans
+## 1. Cloud9 med integrerad koppling till github - Passar både campus och distans
 Vi har i tidigare kurser använt cloud9 som rekommenderad utvecklingsmiljö. Det är en enkel lösning som smidigt kopplas ihop med github samt att du slipper göra några installationer eller annat utan bara använda din webbläsare och skriva din kod direkt i den. Dock ska vi redan nu säga att cloud9, som är en gratistjänst, har den dåliga vanan att bugga ur ibland vilket gör att ibland upplevs det väldigt segt och ibland får mn starta om webbläsaren för att kunna fortsätta arbeta. Man kan alltid börja utveckla i denna miljö men märker man att strular för mycket kan man enkelt byta sätt.Alla dina filer kommer ju sparas centralt på github och dessa kan du alltid komma åt oavsett vilken IDE/editor du använder.
 
 Cloud9 är en molnbaserad utvecklingsmiljö med stark koppling mot bland annat GitHub. Detta betyder att du kan låta Cloud9 klona ditt repositorie från GitHub och arbeta mot dina filer utan att du behöver hämta hem dessa filer till din lokala dator. Detta ger en stor fördel i att du enkelt kan påbörja arbete på en dator och avsluta på en annan utan att behöva flytta någon fil.
@@ -40,12 +40,12 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 En presentation och kom igång-guide:<br />
 <iframe src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" width="640" height="360"></iframe>
 
-#### Cloud9 och GitHub
+### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 
 Terminalen i Cloud9: ![Cloud 9 - terminalen][c9-terminal]
 
-#### Uppgift att göra
+### Uppgift att göra
 Det första vi ska göra är att skapa en så kallad ignore-fil som gör att cloud9 inte skickar upp massa onödiga filer till github. I samband med detta får vi också en genomgång hur det är tänkt att man kan arbeta med github och cloud9.
 
 Börja med att skapa en ny fil som du ger namnet *.gitignore* (observera att detta är en dold fil då den inleds med en punkt). I denna fil ska vi nu skriva en rad och sedan skicka upp till github. När du skapar denna fil kan det hända att den "försvinner" från vänstermenyn och inte går att öppna. Detta beror just på att det är en dold-fil och vi får öppna den på ett annat sätt (detta sätt kommer inte behövas sedan när du börjar jobba med html-filer).
@@ -72,7 +72,7 @@ Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gö
 
 Du är nu redo att köra igång och koda! För att testa och se resultatet av ditt kodande så kan du klicka på "Preview" i Cloud9. Då ser du förändringar så fort du sparar ett dokument.
 
-### Eget val av editor och githubklienten - Passar bra för distansstudenter eller de som har egen dator
+## 2. Eget val av editor och githubklienten - Passar bra för distansstudenter eller de som har egen dator
 Vill man inte använda cloud9:s webbaserade möjlighet kan man installera en egen kodeditor och ändå kunna spara sin kod på github. Det finns mängder av olika kodeditorer att välja på. Ska jag rekommendera en populär är det:
 <sublimetext.com>. Det är en enkel men endå kraftfull editor som kommer funka finemang i denna kurs.
 Det finns såklart [andra alternativ] (http://alternativeto.net/software/sublime-text) ifall man vill.
@@ -84,7 +84,7 @@ Informationsfilmer hur man installerar och använder dessa hittar Du på:
 ##### Uppgift att göra
 Försök nu göra samma uppgift som under rubriken "Cloud9 och GitHub" och skapa en .gitignore-fil och skicka upp den till github.
 
-### Dreamweaver och tortoisegit - Campusstudenter
+##3. Dreamweaver och tortoisegit - Campusstudenter
 I den sal (ny109) där campusstudenterna kommer tillbringa denna kurs finns programvarorna Adobe dreamweaver CS3 och Tortoisegit installerat för att kunna jobba på liknande sätt som med cloud9. Dreamweaver är en hyfsat avancerad kodeditor som kommer fungera bra i denna kurs.
 
 När du öppnar Dreamweaver kan du välja att skapa en ny HTML-fil. Programmet har en dålig ovana att alltid lägga massa skräpkod så ta bort den när du skapar html-filer så du alltid ugår från en tom fil när du börjar skriva din HTML-kod. Använd heller inga av de mallar som finns i programmet då koden i dessa inte är riktigt vad vi vill ha.
@@ -97,7 +97,7 @@ Om du väljer denna variant ska vi försöka göra sak som  beskrivits under rub
 1. Börja med att bege dig till din githubsida och leta efter "HTTPS clone URL" (nere i högra hörnet). Kopiera den adress som står i textrutan där. Den bör se ut liknande: https://github.com/xx222xx/xx222xx-1dv435-laborationer.git
 	Denna adress ska vi använda när vi ska hämta ner ditt githubrepositorie till p:/. 
 	
-2. Skapa en mapp med lämpligt namn på p: och högerklicka i den mappen. Du bör då få upp olika alternativ varav ett säger "Git clone". I textrutan för URL, skriver du in adressen du kopierade från github. Tryck OK för att spara ner dina filer från github (det är möjligt att om du har ett privat repositorie får du ange användarnamn och lösenord). Du har nu synkat ner ditt github-repositorie till p:/.
+2. Skapa en mapp med lämpligt namn på p: och högerklicka i den mappen. Du bör då få upp olika alternativ varav ett säger "Git clone". I textrutan för URL, skriver du in adressen du kopierade från github. Tryck OK för att spara ner dina filer från github (det är möjligt att om du har ett privat repositorie får du ange användarnamn och lösenord). Du har nu synkat ner ditt github-repositorie till p:/.<br />
 ![Clone window][clone]
 
 3. Nu kan du börja att skapa nya filer och göra "commits" till github. Skapa en fil *.gitignore* i din mapp och fyll den enligt tidigare instruktioner  
@@ -105,12 +105,12 @@ Om du väljer denna variant ska vi försöka göra sak som  beskrivits under rub
 4. Du vill nu skicka upp ditt arbete till github och ska göra en commit.  Högerklicka igen på mappen och välj "git Commit...". 
 
 
-5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push". 
+5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push".<br /> 
 	![git commit][git_commit]
 	Här kan du få behöva ange ditt användarnamn och lösenord till github. 
 
 6. I nästa dialogruta väljer du OK.Går allt vägen skickas nu dina filer upp tillsammans med ditt meddelande och du bör se förändringarna på din github-sida.
-
+<br />
 ![git push][git_push]
 
 6. Har du t.ex. suttit hemma och jobbat och skickat upp filer därifrån till github måste du innan du startar med ditt arbete i skolan högerklicka på mappen och välja "git sync" för att få ner förändringarna från github till p: och börja jobba därifrån.
@@ -125,4 +125,17 @@ Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig 
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
 [c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
+[github-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
+
+[github-add-user]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
+
+[github-add-ghpages]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
+
+[github-default-branch]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
+
+[github-release]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-release.png
+
+[github-deletemaster]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
+
+[c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
 
