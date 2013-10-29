@@ -1,6 +1,6 @@
 ## Github - Där dina filer sparas
 
-I denna kursen ska vi använda ett versionshanteringssytem för hantering av de filer du skapar. Systemet heter Git och är väl använt, främst inom programvarutveckling. En väldigt populär tjänst där utvecklare samlar sin kod är <github.com>. Det är den tjänsten som vi ska använda i denna kurs och det är där du alltså ska spara din kod och ockås där vi kursansvariga kommer åt din kod. Vi vill alltså *inte* ha några mejl med kod inskickad.
+I denna kursen ska vi använda ett versionshanteringssytem för hantering av de filer du skapar. Systemet heter Git och är väl använt, främst inom programvarutveckling. En väldigt populär tjänst där utvecklare samlar sin kod är <"//github.com">. Det är den tjänsten som vi ska använda i denna kurs och det är där du alltså ska spara din kod och ockås där vi kursansvariga kommer åt din kod. Vi vill alltså *inte* ha några mejl med kod inskickad.
 
 
 [Mer information om git och github finns i denna guide.](//coursepress.lnu.se/info/manual/kom-igang-med-github/)  
@@ -12,10 +12,10 @@ I denna kurs kommer du att skapa webbsidor från grunden vilket innebär att du 
 
 Även om det går utmärkt att använda Notepad (Anteckningar) för att koda HTML och CSS så rekommenderar vi att ni istället bekantar er med en editor som har stöd för bland annat färgkodning för att göra det hela lite mer problemfritt.
 
-Du är fri att själv välja vilken utvecklingsmiljö (IDE, integrerad utvecklingsmiljö) du ska använda. Här kommer dock lite vägledning och tips i denna fråga.
+Du är fri att själv välja vilken utvecklingsmiljö (IDE, integrerad utvecklingsmiljö) du ska använda. Här kommer dock lite vägledning och tips i denna fråga. Här kommer tre olika alternativ.
 
 ## 1. Cloud9 med integrerad koppling till github - Passar både campus och distans
-Vi har i tidigare kurser använt cloud9 som rekommenderad utvecklingsmiljö. Det är en enkel lösning som smidigt kopplas ihop med github samt att du slipper göra några installationer eller annat utan bara använda din webbläsare och skriva din kod direkt i den. Dock ska vi redan nu säga att cloud9, som är en gratistjänst, har den dåliga vanan att bugga ur ibland vilket gör att ibland upplevs det väldigt segt och ibland får mn starta om webbläsaren för att kunna fortsätta arbeta. Man kan alltid börja utveckla i denna miljö men märker man att strular för mycket kan man enkelt byta sätt.Alla dina filer kommer ju sparas centralt på github och dessa kan du alltid komma åt oavsett vilken IDE/editor du använder.
+Vi har i liknande kurser använt cloud9 som rekommenderad utvecklingsmiljö. Det är en enkel lösning som smidigt kopplas ihop med github samt att du slipper göra några installationer eller annat utan bara använda din webbläsare och skriva din kod direkt i den. Dock ska vi redan nu säga att cloud9, som är en gratistjänst, har den dåliga vanan att bugga ur ibland vilket gör att ibland upplevs det väldigt segt och ibland får mn starta om webbläsaren för att kunna fortsätta arbeta. Man kan alltid börja utveckla i denna miljö men märker man att strular för mycket kan man enkelt byta sätt.Alla dina filer kommer ju sparas centralt på github och dessa kan du alltid komma åt oavsett vilken IDE/editor du använder.
 
 Cloud9 är en molnbaserad utvecklingsmiljö med stark koppling mot bland annat GitHub. Detta betyder att du kan låta Cloud9 klona ditt repositorie från GitHub och arbeta mot dina filer utan att du behöver hämta hem dessa filer till din lokala dator. Detta ger en stor fördel i att du enkelt kan påbörja arbete på en dator och avsluta på en annan utan att behöva flytta någon fil.
 
@@ -24,8 +24,9 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 1. Se till att du är inloggad på GitHub. 
 
 2. Gå till [](https://c9.io/) och välj att logga in via GitHub.
+<p>
 ![Logga in på Cloud9 via GitHub][c9-login]
-
+</p>
 3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
 
 4. Du kommer att klara dig bra på gratisvarianten av Cloud9 för kursernas skulle så klicka bort rutan om att uppgradera till en betalningsplan.
@@ -43,7 +44,7 @@ En presentation och kom igång-guide:<br />
 ### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 
-Terminalen i Cloud9: ![Cloud 9 - terminalen][c9-terminal]
+Terminalen i Cloud9: <br />![Cloud 9 - terminalen][c9-terminal]
 
 ### Uppgift att göra
 Det första vi ska göra är att skapa en så kallad ignore-fil som gör att cloud9 inte skickar upp massa onödiga filer till github. I samband med detta får vi också en genomgång hur det är tänkt att man kan arbeta med github och cloud9.
