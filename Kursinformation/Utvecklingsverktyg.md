@@ -14,7 +14,7 @@ I denna kurs kommer du att skapa webbsidor från grunden vilket innebär att du 
 
 Du är fri att själv välja vilken utvecklingsmiljö (IDE, integrerad utvecklingsmiljö) du ska använda. Här kommer dock lite vägledning och tips i denna fråga.
 
-#### 1. Cloud9 med integrerad koppling till github - Passar både campus och distans
+### 1. Cloud9 med integrerad koppling till github - Passar både campus och distans
 Vi har i tidigare kurser använt cloud9 som rekommenderad utvecklingsmiljö. Det är en enkel lösning som smidigt kopplas ihop med github samt att du slipper göra några installationer eller annat utan bara använda din webbläsare och skriva din kod direkt i den. Dock ska vi redan nu säga att cloud9, som är en gratistjänst, har den dåliga vanan att bugga ur ibland vilket gör att ibland upplevs det väldigt segt och ibland får mn starta om webbläsaren för att kunna fortsätta arbeta. Man kan alltid börja utveckla i denna miljö men märker man att strular för mycket kan man enkelt byta sätt.Alla dina filer kommer ju sparas centralt på github och dessa kan du alltid komma åt oavsett vilken IDE/editor du använder.
 
 Cloud9 är en molnbaserad utvecklingsmiljö med stark koppling mot bland annat GitHub. Detta betyder att du kan låta Cloud9 klona ditt repositorie från GitHub och arbeta mot dina filer utan att du behöver hämta hem dessa filer till din lokala dator. Detta ger en stor fördel i att du enkelt kan påbörja arbete på en dator och avsluta på en annan utan att behöva flytta någon fil.
@@ -37,7 +37,7 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 7. Allt klart. Börja editera genom att klicka på "Start editing".
 
 
-En presentation och kom igång-guide:
+En presentation och kom igång-guide:<br />
 <iframe src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" width="640" height="360"></iframe>
 
 #### Cloud9 och GitHub
@@ -45,7 +45,7 @@ Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste ar
 
 Terminalen i Cloud9: ![Cloud 9 - terminalen][c9-terminal]
 
-##### Uppgift att göra
+#### Uppgift att göra
 Det första vi ska göra är att skapa en så kallad ignore-fil som gör att cloud9 inte skickar upp massa onödiga filer till github. I samband med detta får vi också en genomgång hur det är tänkt att man kan arbeta med github och cloud9.
 
 Börja med att skapa en ny fil som du ger namnet *.gitignore* (observera att detta är en dold fil då den inleds med en punkt). I denna fil ska vi nu skriva en rad och sedan skicka upp till github. När du skapar denna fil kan det hända att den "försvinner" från vänstermenyn och inte går att öppna. Detta beror just på att det är en dold-fil och vi får öppna den på ett annat sätt (detta sätt kommer inte behövas sedan när du börjar jobba med html-filer).
@@ -72,7 +72,7 @@ Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gö
 
 Du är nu redo att köra igång och koda! För att testa och se resultatet av ditt kodande så kan du klicka på "Preview" i Cloud9. Då ser du förändringar så fort du sparar ett dokument.
 
-#### Eget val av editor och githubklienten - Passar bra för distansstudenter eller de som har egen dator
+### Eget val av editor och githubklienten - Passar bra för distansstudenter eller de som har egen dator
 Vill man inte använda cloud9:s webbaserade möjlighet kan man installera en egen kodeditor och ändå kunna spara sin kod på github. Det finns mängder av olika kodeditorer att välja på. Ska jag rekommendera en populär är det:
 <sublimetext.com>. Det är en enkel men endå kraftfull editor som kommer funka finemang i denna kurs.
 Det finns såklart [andra alternativ] (http://alternativeto.net/software/sublime-text) ifall man vill.
@@ -84,7 +84,7 @@ Informationsfilmer hur man installerar och använder dessa hittar Du på:
 ##### Uppgift att göra
 Försök nu göra samma uppgift som under rubriken "Cloud9 och GitHub" och skapa en .gitignore-fil och skicka upp den till github.
 
-#### Dreamweaver och tortoisegit - Campusstudenter
+### Dreamweaver och tortoisegit - Campusstudenter
 I den sal (ny109) där campusstudenterna kommer tillbringa denna kurs finns programvarorna Adobe dreamweaver CS3 och Tortoisegit installerat för att kunna jobba på liknande sätt som med cloud9. Dreamweaver är en hyfsat avancerad kodeditor som kommer fungera bra i denna kurs.
 
 När du öppnar Dreamweaver kan du välja att skapa en ny HTML-fil. Programmet har en dålig ovana att alltid lägga massa skräpkod så ta bort den när du skapar html-filer så du alltid ugår från en tom fil när du börjar skriva din HTML-kod. Använd heller inga av de mallar som finns i programmet då koden i dessa inte är riktigt vad vi vill ha.
@@ -121,7 +121,8 @@ Se till att använda de handledningspass som finns för att under första veckan
 
 Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig en uppgift eller tar en paus o.s.v. PÅ detta sätt har du alltid dina filer versionshanterade och slipper att tappa bort dem.
 
-[clone]:
-[git_commit]:
-[git_push]:
+[clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_clone_tort.PNG
+[git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
+[git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
+[c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
 
