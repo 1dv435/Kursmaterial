@@ -35,13 +35,8 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 
 6. För att klona repositoriet till Cloud9 så att du kan börja editera dina filer så klickar du på "Clone to edit". Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går bra.
 
-7. Allt klart. Börja editera genom att klicka på "Start editing".
+7. Allt klart. Börja editera genom att klicka på "Start editing" och du bör få upp din kodeditor.
 
-
-En presentation och kom igång-guide:
-<p>
-<iframe src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" width="640" height="360"></iframe>
-</p>
 
 ### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
