@@ -124,26 +124,26 @@ Om du väljer denna variant ska vi försöka göra sak som  beskrivits under rub
 6. Har du t.ex. suttit hemma och jobbat och skickat upp filer därifrån till github måste du innan du startar med ditt arbete i skolan högerklicka på mappen och välja "git sync" för att få ner förändringarna från github till p: och börja jobba därifrån.
 
 
-### Slutligen
+## Slutligen
 Se till att använda de handledningspass som finns för att under första veckan få hjälp med att komma igång med utvecklingsmiljön.
 
 Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig en uppgift eller tar en paus o.s.v. PÅ detta sätt har du alltid dina filer versionshanterade och slipper att tappa bort dem.
 
-[clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_clone_tort.PNG
+[clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/clone_tort.PNG
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
-[c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
-[github-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
+[c9-terminal]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
+[github-add-repro]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
 
-[github-add-user]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
+[github-add-user]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
 
-[github-add-ghpages]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
+[github-add-ghpages]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
 
-[github-default-branch]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
+[github-default-branch]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
 
-[github-release]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-release.png
+[github-release]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-release.png
 
-[github-deletemaster]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
+[github-deletemaster]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
 
-[c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+[c9-login]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
 
