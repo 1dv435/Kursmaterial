@@ -30,7 +30,7 @@ Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blo
  
 ## Uppgift 1.1 – Utvecklingsmiljön
 Du ska i denna uppgift komma igång med den utvecklingsmiljö som du ska använda i kursen. 
-Läs noga på om [utvecklingsmiljön på kurshemsidan](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/)
+Börja med att noga läsa på om [utvecklingsmiljön på kurshemsidan](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/) och vilka möjligheter du har där.
 
 Följande krav ställer kursen på utvecklingsmiljön:
 
