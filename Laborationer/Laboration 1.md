@@ -30,6 +30,7 @@ Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blo
  
 ## Uppgift 1.1 – Utvecklingsmiljön
 Du ska i denna uppgift komma igång med den utvecklingsmiljö som du ska använda i kursen. 
+Läs noga på om [utvecklingsmiljön på kurshemsidan](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/)
 
 Följande krav ställer kursen på utvecklingsmiljön:
 
@@ -45,9 +46,8 @@ Följande krav ställer kursen på utvecklingsmiljön:
 
 Följande miljö rekommenderas från kursledningen men är inget krav:
 
-* Cloud9 används som IDE (Integrerad Utvecklingsmiljö) - Se kurshemsidan för mer information.
+* Ditt GitHub-repositorie är publikt eller privat. Vi rekommenderar dock att du gör det publikt då det kommer göra det enklare att visa upp din sida.
 
-* Ditt GitHub-repositorie är publikt eller privat. Vi rekommenderar dock att du gör det publikt då det komme rgöra det enklare att visa upp din sida.
 
 ### Git och GitHub
 Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö. Läs gärna igenom vår [Git-guide](https://coursepress.lnu.se/info/kom-igang-med-github/) innan du sätter igång.
