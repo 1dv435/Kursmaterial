@@ -1,4 +1,4 @@
-På denna sida kommer jag att samla samtliga demon som finns inspelade till kursen. Många demon länkas dessutom till i det sammanhang de hör.
+På denna sida kommer jag att samla samtliga demon som finns inspelade till kursen. Många demon länkas dessutom till i det sammanhang de hör. Observera dock att filmerna är inspelade i utvecklingsverktyget Cloud9. Se [utvecklingsverktyg](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/).
 
 ## Kom igång
 ### Github och Cloud9
