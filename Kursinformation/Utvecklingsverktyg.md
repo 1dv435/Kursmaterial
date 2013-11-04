@@ -75,7 +75,7 @@ Informationsfilmer hur man installerar och använder dessa hittar Du på:
 #### Uppgift att göra
 Försök nu göra samma uppgift som under rubriken "Cloud9 och GitHub" och ändra i filen Readme.md via din valda editor och skicka upp ändringen till github via githubklienten.
 
-##3. Dreamweaver och tortoisegit - Campusstudenter
+##3. Dreamweaver och tortoisegit - Passar campusstudenter i sal ny109
 I den sal (ny109) där campusstudenterna kommer tillbringa denna kurs finns programvarorna Adobe dreamweaver CS3 och [Tortoisegit](https://code.google.com/p/tortoisegit/) installerat för att kunna jobba på liknande sätt som med cloud9. Dreamweaver är en hyfsat avancerad kodeditor som kommer fungera bra i denna kurs.
 
 När du öppnar Dreamweaver kan du välja att skapa en ny HTML-fil. Programmet har en dålig ovana att alltid lägga massa skräpkod så ta bort den när du skapar html-filer så du alltid ugår från en tom fil när du börjar skriva din HTML-kod. Använd heller inga av de mallar som finns i programmet då koden i dessa inte är riktigt vad vi vill ha. Det finns mycket information ute på nätet om hur man använder Dreamweaver. Kom dock ihåg att i denna kurs ska vi skriva all kod själva så vi kommer befinna oss i kodläget.
