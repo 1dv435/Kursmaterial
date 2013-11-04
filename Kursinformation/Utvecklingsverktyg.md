@@ -22,7 +22,7 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 
 1. Logga in på GitHub med ditt sedan tidigare skapade konto. 
 
-2. Gå till [](https://c9.io/) och välj att logga in via GitHub.<br />
+2. Gå till [https://c9.io/](https://c9.io/) och välj att logga in via GitHub.<br />
 	![Logga in på Cloud9 via GitHub][c9-login]
 
 3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
@@ -60,8 +60,8 @@ Du är nu redo att köra igång och koda! För att testa och se resultatet av di
 
 ## 2. Eget val av editor och githubklienten - Passar bra för distansstudenter eller de som har egen dator
 Vill man inte använda cloud9:s webbaserade möjlighet kan man installera en egen kodeditor och ändå kunna spara sin kod på github. Det finns mängder av olika kodeditorer att välja på. Ska jag rekommendera en populär är det:
-<sublimetext.com>. Det är en enkel men endå kraftfull editor som kommer funka finemang i denna kurs.
-Det finns såklart [andra alternativ] (http://alternativeto.net/software/sublime-text) ifall man vill.
+[sublimetext.com](sublimetext.com). Det är en enkel men endå kraftfull editor som kommer funka finemang i denna kurs.
+Det finns såklart [andra alternativ](http://alternativeto.net/software/sublime-text) ifall man vill.
 
 Dessa editorer gör att man jobbar med filerna lokalt på din egen dator och vi måste på något sätt ha ett program som skickar upp filerna till github-tjänsten. Vi kan då använda github:s egna programvara för detta.
 Informationsfilmer hur man installerar och använder dessa hittar Du på:
@@ -93,6 +93,7 @@ Detta är arbetsgången.
 5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push".
 	<br />
 	![git commit][git_commit]
+	<br />
 	Här kan du få behöva ange ditt användarnamn och lösenord till github. 
 
 6. I nästa dialogruta väljer du OK. Går allt vägen skickas nu dina filer upp tillsammans med ditt meddelande och du bör se förändringarna på din github-sida.
