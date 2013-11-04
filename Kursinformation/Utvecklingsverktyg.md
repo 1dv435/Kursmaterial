@@ -25,7 +25,7 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 2. Gå till [](https://c9.io/) och välj att logga in via GitHub.
 
 <p>
-![Logga in på Cloud9 via GitHub][c9-login]
+	![terminal][c9_terminal]
 </p>
 
 3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
@@ -45,7 +45,7 @@ Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste ar
 Terminalen bör du se i en flik längst ner i Cloud9:
 
 <p>
-![Cloud 9 - terminalen][c9-terminal]
+![Cloud 9 - terminalen][c9_terminal]
 </p>
 
 ### Uppgift att göra
@@ -121,18 +121,12 @@ Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig 
 [clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/clone_tort.PNG
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
-[c9-terminal]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
+[c9_terminal]: https://github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-terminal.png
 [github-add-repro]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
-
 [github-add-user]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
-
 [github-add-ghpages]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
-
 [github-default-branch]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
-
 [github-release]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-release.png
-
 [github-deletemaster]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
-
-[c9-login]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+[c9_login]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
 
