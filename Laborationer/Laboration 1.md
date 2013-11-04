@@ -1,8 +1,6 @@
 ## Inledning
 Denna inledande laboration syftar i mångt och mycket till att du ska känna dig bekväm med den laborationsmiljö som skolan erbjuder eller få möjlighet att skapa dig en egen miljö hemma. 
 
-De inledande uppgifterna kommer inte att vara allt för svåra och har du sysslat med html tidigare så kommer du troligtvis få en behaglig resa så här i början.
-
 I mitten av laborationen finns en teoretisk uppgift kring absoluta och relativa URL:er. Det är av största vikt att du förstår hur detta fungerar för att kunna genomföra denna laboration och kommande laborationer.
 
 Du som är ny på html kan finna mycket hjälp i de inspelade demonstrationer som du hittar via kursens webbplats.
@@ -14,13 +12,13 @@ Du kommer vidare att öva på att länka mellan dokument med hjälp av a-taggen,
 
 
 ## Genomförande
-Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. I schemat finns handledningstid utlagd då du har möjlighet att ställa frågor kring uppgiften och få hjälp ifall du kört fast.
+Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. I schemat finns handledningstid utlagd då du har möjlighet att ställa frågor kring uppgiften och få hjälp ifall du kört fast. Använd också kursens forum för att ställa frågor där. Posta dock inga lösningar av uppgifterna på forumet.
 
 När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
 Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. Du ska då också göra en "release" av din kod när du är klar med varje laboration (Se kursens webbplats och uppgift 1 nedan för mer information kring GIT). 
 
 ## Examination
-Efter att du utnyttjat handledningspassen och färdiggjort din laboration handledningspasset kommer din inlämning examineras av kursens examinator genom att din kod studeras via github. Det kan förkomma följdfrågor på din kod som måste besvaras för godkänt. 
+Du utnyttjar de schemalagda handledningspassen för att få hjälp och att säkerställa att din uppgift är OK för examination. Efter att du märkt upp din uppgift som färdig (se nedan) kommer din uppgifts kod granskas av examinator för ett slutgilltigt godkänande. Detta meddelas inom en vecka via e-post. 
 
 ## Plagiat
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
@@ -52,11 +50,12 @@ Följande miljö rekommenderas från kursledningen men är inget krav:
 ### Git och GitHub
 Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö. Läs gärna igenom vår [Git-guide](https://coursepress.lnu.se/info/kom-igang-med-github/) innan du sätter igång.
 
-1. Börja med att skapa ett konto på GitHub, med din "skol-epostadress" och gärna samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.* Kontot skaffar du på [http://github.com](http://github.com)
+1. Om du inte redan gjort det så börja med att skapa ett konto på GitHub, med din "skol-epostadress" och gärna samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.* Kontot skaffar du på [http://github.com](http://github.com)
 
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
 
-3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1dv435-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "xx222yy-1dv435-laborationer".*
+3. Skapa ett nytt repositorie, publikt eller privat. Döp det till "xx222yy-1dv435-laborationer". Viktigt är att ditt användarnamn finns med.
+
 <p>
 ![Skapa nytt repro, GitHub][github-add-repro]  
 </p>
@@ -71,7 +70,10 @@ Klicka in på repositoriet -> Settings (verktygen ute till höger) -> Collaborat
 
 5. Skapa en README.md-fil i ditt repositorie i vilken du skriver lite kort om vad syftet med repositoriet är.
 
-Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. Nästa steg är att skapa en "branch" som heter "gh-pages" och ta bort vår gren master så att den inte ställer till det för oss i början. Genom att använda grenen gh-pages gör att dina HTML-filer kommer att publiceras via GitHub-pages.
+Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. 
+
+#### gh-pages
+Nästa steg är att skapa en "branch" eller gren som heter "gh-pages" och ta bort vår gren master så att den inte ställer till det för oss i början. Genom att använda grenen gh-pages gör att dina HTML-filer kommer att publiceras via GitHub-pages.
 
 1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
 <p>![Lägg till branch, GitHub][github-add-ghpages] </p>
@@ -86,13 +88,13 @@ Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda
 För mer information om de olika sätten att arbeta i kursen och samtidigt versionshantera sin kod **läs noga sidan om utvecklingsverktygen som finns på kurshemsidan.**
 
 ## Uppgift 1.1 - Gör din första commit till github
-Välj det alternativ du vill använda för utvecklingen genom att noga läsa igenom sidan ["Utvecklingsverktyg"](//coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/) på kursens webbplats. Du kommer där få instruktioner hur du gör din första commit i respektive alternativ.
+Välj det alternativ du vill använda för utvecklingen genom att noga läsa igenom sidan ["Utvecklingsverktyg"](//coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/) på kursens webbplats. Du kommer där få instruktioner hur du gör din första commit beroende på vilket alternativ du valt.
+
  
 ## Uppgift 1.2 – Ett första dokument
 Under kursens laborationer kommer du steg för steg att bygga upp en blogg, eller enklare hemsida som ska kunna användas för att bland annat presentera laborationer på. 
 
-Det första steget vi ska ta nu är att skapa ett första html-dokument som kommer att innehålla en presentation över dig, vad du gjort tidigare etc. 
-Du är fri att själv forma innehållet men det vore intressant, men absolut inget krav, att bland annat få veta följande:
+Det första steget vi ska ta nu är att skapa ett första html-dokument vars innehåll du är helt fri att själv utforma. Det skulle dock vara kul med en personlig presentation:
 
 * Intressen
 * Familj
@@ -117,7 +119,6 @@ För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följand
 * Minst en kommentar
 
 **När du testat sidan och känner dig klar så gör du en commit av ditt arbete d.v.s. skickar upp dina filer till github.**
-
 
 
 ### Validera
@@ -160,12 +161,17 @@ För att nå katalogen www tänker vi oss att vi skriver http://www.server.se
 
 Utifrån förutsättningarna ovan ska du nu svara på nedanstående frågor. Gör detta till och börja med genom att skriva ner dem på ett papper eller som en kommentar i valfritt html-dokument.
 
-1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?
-1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?
-1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
-1.4.4. Vilken är den absoluta sökvägen till filen index.html?
-1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?
-1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html:
+1. Vilken är den absoluta sökvägen till filen bottom.html?
+
+2. Vilken är den relativa sökvägen från filen default.html till filen top.html?
+
+3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?
+
+4. Vilken är den absoluta sökvägen till filen index.html?
+
+5. Vilken är den relativa sökvägen från filen top.html till bottom.html?
+
+6. Vilken är den relativa sökvägen från filen index.html till top.html:
 
 ## Uppgift 1.5 – Länkar och mer listor
 Laborationerna i denna kurs kommer att gå ut på att skapa en egen websajt på vilken du bland annat kan presentera laborationsresultat i denna och kommande kurser. 
