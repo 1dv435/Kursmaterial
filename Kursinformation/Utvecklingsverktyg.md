@@ -118,6 +118,7 @@ Använd också kursforumet för att ställa frågor och för att hjälpa varandr
 
 Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig en uppgift eller tar en paus o.s.v. På detta sätt har du alltid dina filer versionshanterade och slipper att tappa bort dem.
 
+[c9_login]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
 [clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/clone_tort.PNG
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
@@ -128,5 +129,5 @@ Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig 
 [github-default-branch]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
 [github-release]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-release.png
 [github-deletemaster]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
-[c9_login]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+
 
