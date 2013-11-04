@@ -2,7 +2,7 @@ På denna sida kommer jag att samla samtliga demon som finns inspelade till kurs
 
 ## Kom igång
 ### Github och Cloud9
-Hur kommer du igång med utvecklingsmiljön i kursen?
+Har du valt att arbeta med Cloud9 finns här en video för dig
 <p>
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" allowfullscreen></iframe>
 </p>

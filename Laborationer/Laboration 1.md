@@ -224,7 +224,6 @@ Du ska nu testa på att infoga bilder på din sajt. Du ska lägga till bilder i 
 
 * jpeg
 * png
-* svg
 
 ### Presentation, jpeg
 På din presentation ska du nu på lämpligt ställe lägga till ett fotografi, eller motsvarande, på dig. Vill du inte lägga upp en bild på dig själv går det bra med ett annat fotografi, så länge som du själv har rättigheterna till fotot eller använder icke upphovsrättsskyddat material.
@@ -247,32 +246,10 @@ Inget krav på konstnärlig förmåga finns.
 
 När du är färdig så ska du ifrån din laborationsportal länka direkt till bildfilen, alltså inte till startsidan.
 
-### Laborationssidan, svg
-Du ska även prova på att skapa en bild med hjälp av vektorgrafik. Använd exempelvis det webbaserade verktyget http://code.google.com/p/svg-edit/
-Skapa en vektorbaserad bild och länka in i ett nytt blogginlägg på din startsida. Länka till blogginlägget från "Uppgift 1.6" på laborationssidan.
-
 **Gör en commit till git**
 
-## Uppgift 1.7 – Video
 
-Det enklaste sättet att tillhandahålla video till användarna av din sajt idag är att använda externa tjänster som Vimeo eller YouTube. Men i och med HTML5 och video-taggens intåg kommer det bli enklare att infoga video på sajter utan att vara beroende av en tredje part. 
-
-I denna uppgift ska du få testa på att länka in en video med hjälp av video-taggen. På sajten http://www.bigbuckbunny.org finns videofiler i olika format som du kan ladda ner för att testa i denna uppgift. Ge dock en länk tillbaka till Big Buck Bunny som tack för lånet (Se CC-licensen). 
-**Obs! Använd de [trailers](http://www.bigbuckbunny.org/index.php/trailer-page/) som finns då dess filstorlek lämpar sig bra för att skicka upp i ditt github-repro.**
-
-Det går även bra att ta egna videoklipp om du så önskar.
-
-Skapa nu ett nytt blogginlägg på startsidan och lägg där upp filmen.
-* Det ska gå att starta stoppa filmen med hjälp av inbyggda kontrollerna
-* Filmen ska inte starta automatiskt när man går in på sidan
- 
-![Resultat][video]
-
-Som vanligt och i samtliga kommande uppgifter länkar du sedan till detta inlägg från laborationssidan.
-
-**Gör en commit till git**
-
-## Uppgift 1.8 – Tabeller
+## Uppgift 1.7 – Tabeller
 Uppgiften går ut på att konstruera en tabell innehållande ditt studieresultat under kursen. Tabellen placeras lämpligtvis på sidan laborationer.html efter ankarlänkarna under rubriken "Webbteknisk introduktion".
 
 Här ser du hur tabellen ska se ut:
@@ -286,7 +263,7 @@ Du får använda attributet `border='1'` på tabelltaggen för att få stödlinj
 
 **Gör en commit till git**
 
-## Uppgift 1.9 - Formulär
+## Uppgift 1.8 - Formulär
 Som sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".
 
 Några krav på formuläret:
@@ -304,8 +281,6 @@ För att testa formuläret så skickar du formulärdatan till sidan:
 [http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)
 
 Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post. Du kommer att bli tillfrågad om användarnamn och lösenord. Det är dina vanliga skoluppgifter du ska ange här.
-
-*(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)*
 
 **Gör en commit till git samt en push mot GitHub**
 

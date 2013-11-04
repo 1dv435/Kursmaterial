@@ -25,16 +25,8 @@ Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om h
 ## Föreslå ändringar
 Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/Laboration%203.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
 
-## Uppgift 3.1 – Stila formuläret
-Förra laborationen innehöll mycket arbete med stilmallen på din portal. Denna laboration kommer att fortsätta på detta arbete och först och främst ska du ge dig på att stila upp ditt formulär. 
 
-Försök göra formuläret så enkelt som möjligt för användaren. Se t.ex. till att texterna (label) inte ligger för långt ifrån fälten som ska fyllas i. 
-
-Sedan förra laborationen har du förmodligen ett färdigt färgschema som du även kan nyttja på formuläret för att få det att visuellt hänga ihop med resten av sajten.
-
-**Git-commit**
-
-## Uppgift 3.2 – Utskriftsvänlig version
+## Uppgift 3.1 – Utskriftsvänlig version
 För att det på ett snyggt sätt ska gå att skriva ut innehållet på din sida på en skrivare utan att få med en massa onödig information ska du nu skapa utskriftsvänliga stilmallar till din sajt. 
 
 Arbeta gärna om typografin till något du tycker lämpar sig för utskrift och se till att ta bort onödiga delar så som exempelvis menyer. 
@@ -45,7 +37,7 @@ PS. Du kan i alla webbläsare förhandsgranska hur din sida kommer att se ut vid
 
 **Git-commit**
 
-## Uppgift 3.3 - Copycat
+## Uppgift 3.2 - Copycat
 Denna uppgift går ut på att du givet ett påbörjat html-projekt ska färdigställa det och efterlikna en prototyp så gott du kan. Projektet ligger på GitHub så din första uppgift blir att göra en "fork" av detta projekt så att du kan göra egna ändringar.
 
 1. Logga först och främst in på GitHub och besök uppgiftens repro: [https://github.com/1ik415/Uppgift-3-3](https://github.com/1ik415/Uppgift-3-3)
@@ -77,7 +69,7 @@ När du är färdig så länkar du till uppgiften (en absolut länk till din Clo
 
 **Git-push**
 
-## Uppgift 3.4 – CSS Sprites
+## Uppgift 3.3 – CSS Sprites
 Växla nu tillbaka till arbetsytan för din laborationsportal.
 
 För att få testa på att använda CSS-sprites så ska du nu lägga till lite enkla ikoner till din meny. 
@@ -89,14 +81,6 @@ Om du använder den medföljande bildfilen så ser du att det finns två version
 
 **Git-commit**
 
-## Uppgift 3.5 – CSS3
-En i högsta grad frivillig uppgift. Titta igenom vilka möjligheter CSS3 ger dig att krydda upp din sajt ytterligare. Kanske skulle du vilja ha ett speciellt typsnitt på dina rubriker? Kanske utnyttja multipla kolumner för texten på presentationssidan? Testa någon animering etc. 
-
-Varsågod. Nu får du lite tid över till det.
-
-**Git-commit**
-
-**Git-push**
 
 ## Postludium
 Du har nu genomfört laboration 3 och du ska nu skapa en release för detta på GitHub
