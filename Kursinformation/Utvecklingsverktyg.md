@@ -22,11 +22,8 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 
 1. Logga in på GitHub med ditt sedan tidigare skapade konto. 
 
-2. Gå till [](https://c9.io/) och välj att logga in via GitHub.
-
-<p>
-	![terminal][c9_terminal]
-</p>
+2. Gå till [](https://c9.io/) och välj att logga in via GitHub.<br />
+	![Logga in på Cloud9 via GitHub][c9-login]
 
 3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
 
@@ -43,10 +40,8 @@ Här nedan följer en guide för hur du kommer igång med cloud9 och github och 
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 
 Terminalen bör du se i en flik längst ner i Cloud9:
-
-<p>
-![Cloud 9 - terminalen][c9_terminal]
-</p>
+<br />
+![terminal](https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-terminal.png)
 
 ### Uppgift att göra
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
@@ -88,24 +83,22 @@ Detta är arbetsgången.
 	Denna adress ska vi använda när vi ska hämta ner ditt githubrepositorie till p:/. 
 	
 2. Skapa en mapp med lämpligt namn på p: och högerklicka i den mappen. Du bör då få upp olika alternativ varav ett säger "Git clone". I textrutan för URL, skriver du in adressen du kopierade från github. Tryck OK för att spara ner dina filer från github (det är möjligt att om du har ett privat repositorie får du ange användarnamn och lösenord). Du har nu synkat ner ditt github-repositorie till p:/.
-<p>
+<br />
 ![Clone window][clone]
-</p>
 
 3. Nu kan du börja att skapa nya filer och göra "commits" till github. Börja med att ändra i filen Readme.md (som nu bör ligga i din mapp).
 
 4. Du vill nu skicka upp din ändring till github och ska därför göra en commit.  Högerklicka igen på mappen och välj "git Commit...". 
 
 5. Du får nu upp ett fönster där dina ändrade filer finns (se till att de är ibokade och valda). Skriv ett commit-meddelande i rutan och tryck OK och i nästa dialogruta på "Push".
-	<p>
+	<br />
 	![git commit][git_commit]
-	</p>
 	Här kan du få behöva ange ditt användarnamn och lösenord till github. 
 
 6. I nästa dialogruta väljer du OK. Går allt vägen skickas nu dina filer upp tillsammans med ditt meddelande och du bör se förändringarna på din github-sida.
-<p>
+<br />
 ![git push][git_push]
-</p>
+
 
 6. Har du t.ex. suttit hemma och jobbat och skickat upp filer därifrån till github måste du innan du startar med ditt arbete i skolan högerklicka på mappen och välja "git sync" för att få ner förändringarna från github till p: och börja jobba därifrån.
 
@@ -118,16 +111,23 @@ Använd också kursforumet för att ställa frågor och för att hjälpa varandr
 
 Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig en uppgift eller tar en paus o.s.v. På detta sätt har du alltid dina filer versionshanterade och slipper att tappa bort dem.
 
-[c9_login]: //github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+
 [clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/clone_tort.PNG
+
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
+
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
-[c9_terminal]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-terminal.png
+
 [github-add-repro]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
+
 [github-add-user]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
+
 [github-add-ghpages]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
+
 [github-default-branch]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
+
 [github-release]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-release.png
+
 [github-deletemaster]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
 
-
+[c9-login]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-login.png
