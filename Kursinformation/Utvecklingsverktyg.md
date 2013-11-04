@@ -121,7 +121,7 @@ Var noga att skicka upp dina filer och ändringar varje gång du  gjort färdig 
 [clone]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/clone_tort.PNG
 [git_commit]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_commit_tort.PNG
 [git_push]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/git_push_tort.PNG
-[c9_terminal]: https://github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-terminal.png
+[c9_terminal]: https://raw.github.com/1dv435/Kursmaterial/master/Laborationer/pics/c9-terminal.png
 [github-add-repro]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
 [github-add-user]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
 [github-add-ghpages]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
