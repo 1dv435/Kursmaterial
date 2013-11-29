@@ -3,6 +3,7 @@ Vi har hittills koncentrerat oss på att strukturera upp vår information på et
 
 ## Mål
 Css ligger i fokus för laborationen och målet med laborationen är att din sajt ska kännas i det närmaste färdig utseendemässigt. Efter laborationen ska du ha övat dina färdigheter inom:
+
 - Layout med css
 - Typografi
 - Färgsättning
