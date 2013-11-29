@@ -149,7 +149,7 @@ Klasserna är:
 
 ![.][css-post]
 
-Vill du kan nu även ge en ram till bilden. Testa så att även din video som du länkat in i ett tidigare inlägg kan placeras med `class="left"` eller `class="right"`.
+Vill du kan nu även ge en ram till bilden. 
 
 **Git-commit**
 
