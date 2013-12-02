@@ -14,10 +14,10 @@ Innan du kommer till laborationstillfället bör du vara så förberedd att du k
 Läs igenom **hela** laborationshandledningen innan du påbörjar laborationen.
 
 ## Genomförande
-Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. Vid redovisning av laborationen ska du kunna besvara frågor om hur du har löst de olika delarna och varför de är lösta på det sätt du löst dem på.
-När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
+Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. I schemat finns handledningstid utlagd då du har möjlighet att ställa frågor kring uppgiften och få hjälp ifall du kört fast. Använd också kursens forum för att ställa frågor där. Posta dock inga lösningar av uppgifterna på forumet.
 
-Efter **minst** varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. 
+När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
+Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. Du ska då också göra en "release" av din kod när du är klar med varje laboration.
 
 ## Plagiat
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
