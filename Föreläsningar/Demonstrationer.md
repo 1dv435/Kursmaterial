@@ -1,10 +1,12 @@
-På denna sida kommer jag att samla samtliga demon som finns inspelade till kursen. Många demon länkas dessutom till i det sammanhang de hör. Observera dock att filmerna är inspelade i utvecklingsverktyget Cloud9. Se [utvecklingsverktyg](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/).
+På denna sida kommer vi att samla samtliga demon som finns inspelade till kursen. Många demon länkas dessutom till i det sammanhang de hör. Observera dock att filmerna är inspelade i utvecklingsverktyget Cloud9. Se [utvecklingsverktyg](https://coursepress.lnu.se/kurs/klientbaserad-webbutveckling/utvecklingsverktyg/).
+
+Observera att i några av filmerna kan begreppen **Git och Github** nämnas. Dessa användes förra året då kursen kördes och är inte aktuella i år vilket gör att ni kan bortse från detta. Vi har därför valt att starta några demonstrationsvideor en bit in.
 
 ## Kom igång
-### Github och Cloud9
-Har du valt att arbeta med Cloud9 finns här en video för dig
+### Cloud9
+Har du valt att arbeta med Cloud9 finns här en video för dig. I denna video nämns github ibland men bortse från det och koncentrera dig på cloud9
 <p>
-<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/bnGvxaq7g_0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//youtube.com/watch?v=bnGvxaq7g_0&t=10m40s" frameborder="0" allowfullscreen></iframe>
 </p>
 ### Teckenuppsättning
 Om du använder en lokal editor och inte använder Cloud9 så kan du få problem med teckenuppsättningar beroende på vilken editor du använder. Jag går igenom problemet och visar lite olika lösningar. Använder du cloud9 så är dina dokument skrivna i utf-8 och det är också detta du ska tala om med en meta-tagg.
@@ -14,7 +16,7 @@ Om du använder en lokal editor och inte använder Cloud9 så kan du få problem
 ### Ett första html-dokument
 Ett demo för att komma igång och skriva vårt första HTML-dokument.
 <p>
-<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/cbf1_Jyuk5c" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="//www.youtube.com/watch?v=cbf1_Jyuk5c#t=50" frameborder="0" allowfullscreen></iframe>
 </p>
 Vidare läsning:
 
