@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+
+  <head>
+   
+     <meta charset="utf-8" />
+     <title>Klientbaserad Webbutveckling, 1DV435</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    
+    <meta name="description" content="Webben idag och i framtiden, Kalmar, Linnéuniversitetet" />
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,300,400,800' rel='stylesheet' type='text/css'>
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <script src='slides.js' media="screen"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<style media="print">
+	         @page {
+	            size: A4 landscape;
+	             @top-right {
+	                content: "Page " counter(page);
+	             }
+	         }
+	          article {
+	            page-break-after: always;
+	            margin: auto;
+	          }
+	          article.next, article.past {
+	            display: block;    
+	          }
+	
+				iframe {
+					display: none;
+				}
+				article img {
+					display: none;
+				}
+	          body {
+	              display: block !important;
+	              font-family: 'Open Sans', Arial, sans-serif;
+	              font-size: 1.5em;
+	          }
+	</style>
+  </head>
+  
+
+
+  <body style='display: none'>
+
+    <section class='slides layout-widescreen template-default'>
+      <!-- http://lights.elliegoulding.com/ -->
+	
+	<!-- Första sidan -->
+    <article>
+       	<h3>
+          Klientbaserad webbutveckling, 1DV435
+          <br />
+          <span class="small">Linnéuniversitetet, Ht 2013</span>
+        </h3>
+       
+		
+		<br /><br />
+		<h1 class="big c">Programmering, JavaScript, Del 2</h1>
+		<p class="very_small" style="margin-top: 60px;">
+				
+		</p>
+		
+		<p class="small_footer">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sv">
+					<img alt="Creative Commons-licens" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>&nbsp;&nbsp;Denna presentation är licensierat under en 
+					
+						<a rel="license" href="hhttp://creativecommons.org/licenses/by/3.0/deed.sv">Creative Commons Erkännande 3.0 Unported Licens</a>.<br/>
+		</p>
+ 	</article>
+	
+	<!-- Förra veckan -->
+	<article>
+		<h1>Förra gången</h1>
+		<ul>
+			<li>Programmering i allmänhet</li>
+			<li>JavaScript i synnerhet</li>
+			<li>Variabel</li>
+			<li>Datatyper</li>
+			<li>Alternativ, if-satser, else-satser</li>
+			<li>Operatorer</li>
+		</ul>
+	</article>
+
+	<!-- Skillnad mellan javascript och serverscript -->
+	<article>
+		<h3>Klient (Webbläsare) och server</h3>
+		<p class="c">
+		<img src="images/web_app.png" />
+		</p>
+	</article>
+	
+	
+	
+	<!-- Repetition -->
+	<article>
+		<h3>Exempel som visar förra veckans delar</h3>
+		<p class="c">
+			<img src="images/demo.png" />
+		</p>
+	</article>
+	
+
+	
+	
+	<!-- Logiska operatorer -->
+	<article>
+			<h3>Logiska operatorer</h3>
+			<p>Att kunna ha mer sammansatta satser</p>
+			<pre>
+var tal1 = 10;
+var tal2 = 9;
+var tal3 = 13;
+if (tal1 > tal2) {
+  if(tal1 &lt; tal3) {
+    // Kod här
+  }
+}</pre>
+			<pre>
+// ALLA påstående måste vara sant
+if (tal > tal2 &amp;&amp; tal &lt; tal3) {
+ // Kod här
+}
+// NÅGOT av dessa påstående måste vara sant	
+if (tal > tal2 || tal  &lt; tal3) {
+  // code here
+}		</pre>	
+		</article>
+	
+	<!-- Exempel - Du testar -->
+	<article>
+			<h3>Vad skrivs ut?</h3>
+			<pre>
+has_posts = true;
+nr_of_posts = 15;
+is_logged_in = false;
+
+
+if(has_posts &amp;&amp; nr_of_posts &lt;= 10) {
+  console.log("Första");
+}
+
+if(is_logged_in || nr_of_posts > 0) {
+  console.log("Andra");
+}
+
+if(has_posts &amp;&amp; 10 &lt; nr_of_posts) {
+  console.log("Tredje");
+}</pre>
+		</article>
+		
+		
+		<!--Arrayer varför -->
+		<article>
+			<h3>Variabler som hör ihop</h3>
+			<p>I många fall har man ett godtyckligt antal värden som hör ihop</p>
+			<ul>
+				<li>En talserie (lottorad, en lista med temperaturer för en månad o.s.v.)</li>
+				<li>En lista med personers namn</li>
+				<li>En lista med HTML-länkar</li>
+			</ul>
+			<pre>
+var temperatur1 = 3;
+var temperatur2 = 6;
+var temperatur3 = 4;
+...
+var temperatur30 = 18;
+</pre>
+<p>
+	Dessa värden kan man spara som EN variabel i en så kallad <strong>Array</strong>
+	</p>
+		</article>
+		
+		<!-- Vad är en array -->
+		<article>
+			<h3>Hur funkar en array?</h3>
+			<p>Om man kan se en variabel som en låda med ett värde i sig</p>
+			<p>Kan man se en array större låda med flera lådor/fack i sig</p>
+			<p class="spaced">
+				<img src="images/array_lotto.png" width="90%"/>
+			</p>
+			<pre>
+var lottorad = [4, 6, 7, 11, 17, 21, 35];
+
+// Jämför med...
+var lottonr1 = 4;
+var lottonr2 = 6;
+var lottonr3 = 7;
+...	
+var lottonr7 = 35;</pre>
+		</article>
+		
+		<!-- Javascript - arrayer SKAPA -->
+			<article>
+					<h3>Array i JavaScript</h3>
+					<pre>
+var array = []; // skapa en tom array
+array[0] = 13;
+array[1] = 231;
+array[2] = "Olle";</pre>		
+					<p>
+						<img src="images/little_Arr.png" style="margin: 0px;"/>
+					</p>
+					<pre  style="margin: 4px;"/>
+console.log("Första värdet i arrayen är: " +array[0]);
+console.log("Sista värdet i arrayen är: " +array[2]);
+</pre>
+	
+			</article>
+			
+			
+		<!-- Gissa  -->
+		<article>
+				<h3>Vilka värden skrivs ut?</h3>
+				<pre>
+var arr = [1, 4, -5, 10, 123];
+
+var arr2 = [123, 10, -5, 4, 1];
+					
+// Vad skrivs ut?
+console.log(arr[0]);
+
+console.log(arr2[2]);
+
+console.log(arr[4]);
+
+console.log(arr2[0]);
+
+console.log(arr[5]);
+				</pre>
+		</article>
+			
+	
+		
+	
+	<!-- Hur kan vi få det lite mer dynamiskt -->
+	<article>
+		<h3>Hantera godtyckliga arrayer</h3>
+		
+		<p>
+			Hur kan vi på ett effektivare sätt hantera alla värden i en array
+		oavsett hur många som finns sparade i arrayen?
+		</p>
+		<pre>
+// Skriv ut alla värdena i en array vars längd är 3000		
+// Blir jobbigt om man har många värden
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+...
+console.log(arr[3000]);			
+		</pre>
+		<p>
+			Vi behöver göra liknande sak om och om och om igen.
+		</p>
+	</article>
+	
+	<!-- Om loop  -->
+	<article class="fill">
+		
+		<h3>Repetion - Loop</h3>
+	
+			<ul>
+				<li>När man vill repetera någon kod många gånger använder man någon typ av loop</li>
+				<li>Det finns flera olika sorters loopar <br />
+					for-loop, while-loop, for-in, for-each</li>
+				<li>Vi kommer koncentrera föreläsningen på for-loopen</li>
+			</ul>
+	
+		<img src="images/loop.jpg" />
+	</article>
+
+	<!-- For-loop uppbyggnad -->
+	<article>
+		<h3>Om for-loopen</h3>
+		<pre>
+for (initsiering; uttryck; uppräkning/nedräkning) {
+
+  // lika många gånger som loopen körs 
+  // körs också denna kod
+
+}
+		</pre>
+		<pre>
+for (var i = 0; i &lt; 10; i++) {
+	
+	// Allt som står innanför klammerparanteserna 
+	// körs 10 ggr
+	// variablen i (kallas räknare) kommer att ökas med 1 för varje gång
+}</pre>
+	</article>
+	
+	<!-- Exempel på for-loop -->
+	<article>
+		<h3>Exempel på for-loop</h3>
+		
+		<p class="c">
+			<img src="images/demo.png" />
+		</p>
+	</article>
+	
+	
+	<!-- Åter till huvudfrågan! -->
+	<article>
+		<h3>Hantera godtyckliga arrayer</h3>
+		
+		<p>
+			Hur kan vi på ett effektivare sätt läsa ut alla värden i en array
+		oavsett hur många som finns sparade i arrayen?
+		</p>
+		<pre>
+// Blir jobbigt om man har många värden
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+...
+console.log(arr[3000]);			
+		</pre>
+	</article>
+	
+	<!-- For-loop och array-->
+	<article>
+		<h3>Arrayer och for-loopar passar bra ihop</h3>
+		<p>
+			Att kombinera loopar och arrayer är 
+			en vanligt förekommande uppgift i programmering
+		</p>
+		<pre>
+// Antag vi har en array med godtyckligt antal värden (variabelnamnet är arr)
+// Vi kan enkelt ta reda på hur många värden som finns i arrayen
+var arr_length = arr.length;
+			
+for(var i = 0; i &lt; arr_length; i++) {
+	
+  console.log(arr[i]);
+
+}
+		</pre>
+	</article>
+
+	<!-- Exempel på for-loop -->
+	<article>
+		<h3>Räkna ut totalsumman av en godtycklig array</h3>
+		
+		<p>
+			Antag det finns en array (numbers_arr) som vi inte vet längden på.<br />
+			Den innehåller endast Numbers.<br />
+			Räkna ut totalsumman av alla tal i arrayen<br /> 
+		</p>
+		<pre class="to-build">
+// Ta reda på längden på arrayen
+var arr_length = numbers_arr.length;
+
+// Skapa en variabel för att hålla totalsumman
+// sätt den till strtvärdet noll
+var total = 0;
+
+// Kör loopen baklänges			
+for(var i = arr_length-1; i >= 0; i--) {
+	
+  total += numbers_arr[i];
+
+}
+// Här är totalsumman färdigräknad
+console.log(total);
+</pre>
+	</article>
+	
+	
+	<!-- Funktioner -->
+		<article>
+				<h3>Att strukturera upp sin kod med funktioner</h3>
+				<ul>
+					
+					<li>Att skriva kod i funktioner är ett sätt att strukturera mer komplexerad kod</li>
+					<li>Med hjälp av funktioner behöver man inte skriva om samma kod flera gånger</li>
+					<li>Inom programmering pratar man om DRY - Don´t Repeat Yourself</li>
+					<li>En funktion kan ta emot <strong>parametrar</strong> för att styra koden innanför</li>
+					<li>En funktion kan <strong>returnera</strong> ett värde</li>
+				</ul>
+				<p class="c">
+					<img src="images/function.png"  height="220px"/>
+				</p>
+				
+		</article>
+	
+	<!-- Funktion -->
+	<article>
+		<h3>Exempel - funktion med parametrar</h3>
+		<pre>
+// Detta är en funktion som fått namnet add
+// den tar två parametrar
+
+function add(tal1, tal2) {
+  
+  var summa = tal1 + tal2;
+  console.log(summa);
+
+}
+
+// Här kallar vi på funktionen add och fyller parametrarna med två tal
+add(12, 12);
+			
+// Här kallar vi på SAMMA funktion men med ANDRA tal till parametrerna
+// Detta borde ge ett annat resultat!
+add(6, 6);
+		</pre>
+	</article>
+	
+	<!-- Funktion med retur värde -->
+	<article>
+		<h3>Returvärden</h3>
+		<p>
+			Man kan se en funktion som ett kodblock 
+			där man stoppar in värden (parametrar)
+			och kan få tillbaka ett svar
+		</p>
+		<pre>
+
+function add(tal1, tal2) {
+  
+  var summa = tal1 + tal2; // OBS! Scope
+  return summa;
+
+}
+
+// Här kallar vi på funktionen add och fyller parametrarna med två tal
+var summa = add(4, 8);
+console.log(summa); // Vad skrivs ut?
+
+		</pre>
+	</article>
+	
+	
+	<!-- om laborationen -->
+	<article>
+		<h1>Om laborationen</h1>
+		<ul>
+			<li>Ett mindre antal småtester ska lösas</li>
+			<li>Koden skriver du i fördefinierade funktioner</li>
+			<li>Gör du rätt blir det grönt</li>
+		</ul>
+		
+	</article>
+	
+	<!-- om laborationen -->
+	<article>
+		<h1>Nästa gång</h1>
+		
+		<h3>Interaktivitet med HTML-sidor</h3>
+			
+		
+	</article>
+	
+    </section>
+  </body>
+</html>
+
+

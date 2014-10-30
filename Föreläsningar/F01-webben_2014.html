@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+
+  <head>
+
+     <meta charset="utf-8" />
+     <title>Klientbaserad Webbutveckling, 1DV435</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+    <meta name="description" content="Webben idag och i framtiden, Kalmar, Linnéuniversitetet" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,300,400,800' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <script src='slides.js' media="screen"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<style media="print">
+	         @page {
+	            size: A4 landscape;
+	             @top-right {
+	                content: "Page " counter(page);
+	             }
+	         }
+	          article {
+	            page-break-after: always;
+	            margin: auto;
+	          }
+	          article.next, article.past {
+	            display: block;
+	          }
+
+				iframe {
+					display: none;
+				}
+				article img {
+					display: none;
+				}
+	          body {
+	              display: block !important;
+	              font-family: 'Open Sans', Arial, sans-serif;
+	              font-size: 1.5em;
+	          }
+	</style>
+  </head>
+
+
+
+  <body style='display: none'>
+
+    <section class='slides layout-widescreen template-default'>
+      <!-- http://lights.elliegoulding.com/ -->
+
+	<!-- Första sidan -->
+    <article>
+       	<h3>
+          Klientbaserad webbutveckling, 1DV435
+          <br />
+          <span class="small">Linnéuniversitetet, Ht 2014</span>
+        </h3>
+
+
+		<br /><br />
+		<h1 class="big c">Om webben</h1>
+		<p class="very_small" style="margin-top: 60px;">
+
+		</p>
+
+		<p class="small_footer">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sv">
+					<img alt="Creative Commons-licens" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>&nbsp;&nbsp;Denna presentation är licensierat under en
+
+						<a rel="license" href="hhttp://creativecommons.org/licenses/by/3.0/deed.sv">Creative Commons Erkännande 3.0 Unported Licens</a>.<br/>
+		</p>
+ 	</article>
+
+
+	<!-- Historik 1 -->
+	<article class="fill">
+		<h3>Webben = Internet?</h3>
+		<img src="https://www.viralheat.com/wp-content/uploads/2012/08/remote-Service-Providers.jpg" />
+		<p class="cc">Image: <a href="https://www.viralheat.com/wp-content/uploads/2012/08/remote-Service-Providers.jpg">https://www.viralheat.com/wp-content/uploads/2012/08/remote-Service-Providers.jpg</a></p>
+	</article>
+
+	<article>
+		<img src="images/internet_web.png" width="80%" />
+	</article>
+
+	<article class="fill">
+		<h3>Så...Hur funkar webben?</h3>
+		<img src="images/internet_overview.png" />
+	</article>
+
+	<article>
+		<h3>Så...Hur funkar webben?</h3>
+		<img src="images/internetz.png" width="100%"/>
+		<h2>URL, HTTP, HTML, (webb)Klient, (webb)Server</h2>
+	</article>
+
+	<article class="fill">
+		<h3 style="font-size: 30pt">Klientbaserad webbutveckling???</h3>
+		<img src="http://media02.hongkiat.com/bad-chemistry-with-clients/angry-client.jpg" alt="" height="80%">
+	</article>
+
+	<article>
+		<h3>Klientbaserad webbutveckling</h3>
+		<p>
+			Klienten är webbläsaren. Vi ska lära oss tekniker som körs i webbläsaren!
+		</p>
+		<ul>
+			<li>HTML - Strukturera upp information</li>
+			<li>CSS - Presentera den strukturerade informationen</li>
+			<li>JavaScript - Infoga interaktivitet</li>
+		</ul>
+
+	</article>
+
+
+	<article class="fill">
+
+		<img src="http://www.quickmeme.com/img/40/40b96f717103244d7d9dea023de22820619058efade0a529f2938430963ed6c7.jpg" height="80%"/>
+		<p class="cc">Image: <a href="http://www.quickmeme.com/img/40/40b96f717103244d7d9dea023de22820619058efade0a529f2938430963ed6c7.jpg">http://www.quickmeme.com/img/40/40b96f717103244d7d9dea023de22820619058efade0a529f2938430963ed6c7.jpg</a></p>
+
+	</article>
+
+	<!-- Tim -->
+    <article class="fill">
+
+		<img src="https://farm6.staticflickr.com/5226/5679904557_e3c1f784ce_b.jpg" />
+		<p class="cc">CC Image: <a href="https://farm6.staticflickr.com/5226/5679904557_e3c1f784ce_b.jpg">https://www.flickr.com/photos/arselectronica</a></p>
+	</article>
+
+	<!-- Tim -->
+    <article class="fill">
+
+		<img src="http://3ehspg3e85cn1oz25ebdof7cd3.wpengine.netdna-cdn.com/wp-content/uploads/2012/06/timbernerslee.jpeg" />
+		<p class="cc">Image: <a href="http://3ehspg3e85cn1oz25ebdof7cd3.wpengine.netdna-cdn.com/wp-content/uploads/2012/06/timbernerslee.jpeg">http://3ehspg3e85cn1oz25ebdof7cd3.wpengine.netdna-cdn.com/wp-content/uploads/2012/06/timbernerslee.jpeg</a></p>
+	</article>
+
+	<!-- Tim -->
+    <article class="fill">
+		<p class="cc">Image from: <a href="http://info.cern.ch/Proposal.html"> http://info.cern.ch/Proposal.html</a> </p>
+		<img src="http://info.cern.ch/images/proposal.gif"/>
+	</article>
+
+	<!-- HTML, URL HTTP -->
+    <article class="fill">
+
+      		<img src="http://farm2.staticflickr.com/1144/3353696696_ceec5e3858_b.jpg" width="100%" />
+			<h3 class="c">HTML, URI (URL), HTTP</h3>
+
+      		<p class="cc">Foto cc (David Roessli): <a href="http://www.flickr.com/photos/davo39/">http://www.flickr.com/photos/davo39/</a></p>
+
+	</article>
+
+	<!-- Gopher -->
+	<article class="fill">
+  		<img src="http://farm4.staticflickr.com/3517/4079138689_f1af8b86d3_o.png" width="100%" />
+  		<p class="cc">Image cc Beth Kanter: <a href=" http://www.flickr.com/photos/cambodia4kidsorg/">http://www.flickr.com/photos/cambodia4kidsorg/</a></p>
+
+  	</article>
+
+	<!-- Mosaic -->
+	 <article class="fill">
+      		<img src="http://www.computerhistory.org/atchm/wp-content/uploads/2014/03/Mosaic-wmosaic-logo-smaller.jpg" width="100%" />
+			<p class="cc">Foto cc: <a href="http://www.computerhistory.org/atchm/wp-content/uploads/2014/03/Mosaic-wmosaic-logo-smaller.jpg">http://www.computerhistory.org/atchm/wp-content/uploads/2014/03/Mosaic-wmosaic-logo-smaller.jpg</a></p>
+	</article>
+
+
+
+	<!-- Först webb -->
+	<article class="fill">
+		<iframe src="http://info.cern.ch/hypertext/WWW/TheProject.html"></iframe>
+	</article>
+
+
+
+
+	<article class="fill">
+		<iframe src="http://persa.free.fr/site2/" frameborder="0"></iframe>
+	</article>
+
+
+
+	<article class="fill">
+		<img src="images/webb_1999.png" />
+	</article>
+
+	<article class="fill">
+		<iframe src="http://www.csszengarden.com/" frameborder="0"></iframe>
+	</article>
+
+	<article class="fill">
+		<img src="https://www.nextflywebdesign.com/wp-content/uploads/2013/07/mobile-nextfly-page2.gif" alt="">
+	</article>
+
+	<article class="fill">
+		<a href="http://c9.io"><h3>Hur kommer jag igång?</h3></a>
+
+			<img src="https://d6ff1xmuve0sx.cloudfront.net/nc-3.0.418-e98be5d7/static/homepage/images/c9-web/top-carrousel-1.png" frameborder="0"></img>
+
+	</article>
+
+    </section>
+  </body>
+</html>
