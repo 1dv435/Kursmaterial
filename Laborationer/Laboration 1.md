@@ -129,7 +129,6 @@ Länkarn ska ligga i en osorterad lista.
 Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
 ![Exempel på utseende][lankar]
 
-**Gör en commit till git.**
 
 ### Laborationsportal
 Du ska nu bygga upp en struktur för presentation av dina laborationer. Detta gör du i filen laborationer.html. 
