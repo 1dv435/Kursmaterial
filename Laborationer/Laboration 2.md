@@ -18,13 +18,10 @@ Läs igenom **hela** laborationshandledningen innan du påbörjar laborationen.
 Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. I schemat finns handledningstid utlagd då du har möjlighet att ställa frågor kring uppgiften och få hjälp ifall du kört fast. Använd också kursens forum för att ställa frågor där. Posta dock inga lösningar av uppgifterna på forumet.
 
 När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
-Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. Du ska då också göra en "release" av din kod när du är klar med varje laboration.
+
 
 ## Plagiat
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
-
-## Föreslå ändringar
-Denna handledning ligger på [GitHub](https://github.com/1dv435/Kursmaterial/blob/master/Laborationer/Laboration%202.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
 
 ## Eget arbete
 Du ska i denna laboration med hjälp av css göra din sida mer funktionell och förhoppningsvis även se till att den blir en fröjd för ögat.
@@ -54,8 +51,6 @@ Du bör nu skapa en länkstruktur enligt ovan. Då hittar du allt som har med st
 På denna laboration får du mer än gärna använda en ”nollställnings-css” som exempelvis Eric Meyers CSS Reset ([http://meyerweb.com/eric/tools/css/reset/](http://meyerweb.com/eric/tools/css/reset/)). Du får dock inte använda någon form av CSS-ramverk.
 
 
-**Git-commit**
-
 ## Uppgift 2.2 – Layout
 När det nu är dags att pynta vår sida med css är det första vi bör göra att titta på den övervägande layouten av sidan. Hur ska de stora byggblocken på sidan förhålla sig till varandra. Ska vi arbeta med kolumner? Ska sidan vara centrerad? Och så vidare. 
 
@@ -79,8 +74,6 @@ För att underlätta kan du sätta en ram runt alla övergripande element så bl
 
 I detta skede behöver du inte fokusera på typsnitts-storlekar, färger etc. då detta är enkelt att ändra i css-filen i efterhand. Det viktiga är att du får en struktur på html-koden som du känner att du är nöjd med.
 
-**Git-commit**
-
 ## Uppgift 2.3 – Färgsättning
 När du känner dig nöjd med layouten kan vi nu gå över till att färgsätta sajten. Här bör du försöka hitta en färgsättning med färger som fungerar bra tillsammans. Ett par primärfärger och någon/några komplementfärger kan vara lämpligt. 
 
@@ -94,7 +87,6 @@ Notera gärna dina färger som kommentarer i din css-fil så hittar du enkelt di
 
 Se nu till att sätta genomtänkta färger på bakgrunder, texter, ramar etc.  
 
-**Git-commit**
 
 ## Uppgift 2.4 – Menyn
 Hittills har vi inte lagt så mycket energi på menyn men det ska vi göra någonting åt nu.
@@ -116,16 +108,12 @@ För att få tag i aktivt menyalternativ är det smidigast om du tilldelar den a
 
 Se nu till att menyn ser likadan ut på samtliga sidor och att den fungerar för alla sidor.
 
-**Git-commit**
-
 ## Uppgift 2.5 – Typografi
 Dags nu att se över sidans typografi, alltså hur typsnitt och läsbarheten kan förbättras på din sida.
 
 Tänk igenom typsnittsstorlekar, vilka typsnitt som ska användas, radavstånd etc. och implementera detta i din stilmall. Du ska i detta steg även se till att dina länkar (exklusive menyn) har ett enhetligt utseende och är lätta att urskilja från vanlig text. 
 
 ![.][css-typografi]
-
-**Git-commit**
 
 ## Uppgift 2.6 – Övrigt
 Nu kan vi börja med ”finliret”, rätta till marginaler och stoppningar (padding). Dessutom ska du i denna uppgift se till att använda från css-filen inlänkade bakgrundsbilder på minst två ställen i koden. T.ex. kan du se till att lägga din logotyp som en bakgrundsbild och även infoga en liten ikon framför dina blogginlägg på startsidan. 
@@ -138,9 +126,6 @@ Du bör nu även kontrollera att allt ser bra ut på samtliga sidor som du skapa
 
 Har du inte kommenterat din css-kod under tiden du skrivit? Kanske dags att se över detta nu i så fall. Tid kanske även finns för att gå igenom koden en extra gång.
 
-
-**Git-commit, commit, commit, commit…..**
-
 ## Uppgift 2.7 – Ny bloggpost
 För att få laborera lite med bilder på våra sidor ska du nu skapa en ny bloggpost innehållandes ett flertal stycken med text samt även en bild (som nu länkas in med &lt;img&gt;-taggen då den hör till blogginläggets innehåll). 
 Texten kan vara av typen ”Lorem ipsum” men givetvis är det roliga om du kan skriva ett blogginlägg. Uppgiften blir att genom att sätta en klass på bilden ska man kunna bestämma hur bilden ska ligga i förhållande till texten.
@@ -152,28 +137,10 @@ Klasserna är:
 
 Vill du kan nu även ge en ram till bilden. 
 
-**Git-commit**
-
 ## Uppgift 2.8 – Laborationssidan
 Stila nu på eget bevåg till laborationssidan så att exempelvis tabellen följer din sidas design och att den blir tydlig. 
 Kontaktformuläret lämnar vi till nästa laboration, men om du vill får du gärna redan nu ge dig på att snygga till det.
 
-**Git-commit**
-
-**Git-push**
-
-## Postludium
-Du har nu genomfört laboration 2 och du ska nu skapa en release för detta på GitHub
-
-1. Logga in på GitHub och gå till repositoriet för laborationen.
-2. Kontrollera att dina senaste ändringar finns tillgängliga på GitHub.
-3. Klicka på "releases" ovanför fillistningen.
-4. Välj att skapa en ny release.
-5. Se till att "Tag version" blir `l02` (Ludvig, nolla, tvåa).
-Välj en lämplig titel.
-6. Publicera releasen
-
-Var så god att påbörja arbetet med laboration 3!
 
 
 [filetree-css]: https://github.com/1dv435/Kursmaterial/raw/master/Laborationer/pics/filetree-css.png
