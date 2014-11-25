@@ -1,5 +1,5 @@
 ## Inledning
-Vi kommer på denna laboration fortsätta med CSS och nu finslipa vår sida. Du kommer även att få träna lite extra på CSS genom att göra en ny layout på en separat sida och så långt det går försöka efterlikna en redan färdig design. I och med detta kommer du också att få testa att "forka" ett befintligt projekt på GitHub.
+Vi kommer på denna laboration fortsätta med CSS och nu finslipa vår sida. Du kommer även att få träna lite extra på CSS genom att göra en ny layout på en separat sida och så långt det går försöka efterlikna en redan färdig design. 
 
 ## Mål
 Vi fortsätter med css. Efter laborationen ska du:
@@ -39,7 +39,7 @@ Länkar till externa webbplatser ska skrivas ut i sin helhet när man skriver ut
 PS. Du kan i alla webbläsare förhandsgranska hur din sida kommer att se ut vid utskrift så att du slipper ödsla träd på detta.
 
 ## Uppgift 3.3 - Copycat
-Denna uppgift går ut på att du givet ett påbörjat html-projekt ska färdigställa det och efterlikna en prototyp så gott du kan. Projektet ligger på GitHub så din första uppgift blir att göra en "fork" av detta projekt så att du kan göra egna ändringar.
+Denna uppgift går ut på att du givet ett påbörjat html-projekt ska färdigställa det och efterlikna en prototyp så gott du kan. 
 
 1. Ladda först ner de filer du ska utgå ifrån från denna länk: 
 [copycat.zip](http://orion.lnu.se/pub/education/course/1DV435/ht14/copycat.zip)
