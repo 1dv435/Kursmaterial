@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Laboration - JavaScript</title>
+		<meta charset="utf-8" />
+		<style>
+		    .bluer {
+		        background-color: #0000FF;
+		    }
+
+		    .blue {
+		        background-color: #8888FF;
+		    }
+		    .normal {
+		        background-color: #FFFFFF;
+		    }
+		    .red {
+		        background-color: #FF8888;
+		    }
+
+		    .reder {
+		        background-color: #FF0000;
+		    }
+		    .grey {
+		        background-color: #333333;
+		    }
+		</style>
+	</head>
+	<body class="normal">
+        <h1>Bläddra mellan flera olika CSS-klasser</h1>
+        <div>
+            <input type="button" id="left" value="<<<" />
+            <span class="message">Normal</span>
+            <input type="button" id="right" value=">>>" />
+        </div>
+
+
+
+        <script type="text/javascript">
+
+            // Hämtar ut elementet där jag vill skriva ut klassnamnet
+            var messageElement = document.querySelector(".message");
+
+            // Skapar en array med de olika css-klassnamnen
+            var cssArray = ["bluer", "blue", "normal", "red", "reder", "grey"];
+
+            var counter = 2;
+            var arrayLength = cssArray.length;
+
+            var rightButton = document.getElementById("right");
+            rightButton.onclick = function() {
+                counter++;
+                console.log("counter är: " +counter);
+                if(counter < arrayLength) {
+                    document.body.className = cssArray[counter];
+                    messageElement.innerHTML = cssArray[counter];
+                }
+                else {
+                    alert("Kan inte blir rödare än så!");
+                    counter = arrayLength - 1;
+                }
+            };
+
+            var leftButton = document.getElementById("left");
+            leftButton.onclick = function() {
+                counter--;
+                console.log("counter är: " +counter);
+                if(counter >= 0) {
+                    document.body.className = cssArray[counter];
+                    messageElement.innerHTML = cssArray[counter];
+                }
+                else {
+                    alert("Kan inte bli blåare än så!");
+                    counter = 0;
+                }
+            };
+
+
+
+        </script>
+
+    </body>
+</html>

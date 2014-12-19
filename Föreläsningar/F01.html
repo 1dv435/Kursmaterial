@@ -5,7 +5,7 @@
 
   Authors: Luke Mahé (code)
            Marcin Wichary (code and design)
-           
+
            Dominic Mazzoni (browser compatibility)
            Charles Chen (ChromeVox support)
 
@@ -15,17 +15,17 @@
 <html>
 
   <head>
-   
+
      <meta charset="utf-8" />
      <title>Klientbaserad Webbutveckling, 1DV435</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    
+
     <meta name="description" content="Webben idag och i framtiden, Kalmar, Linnéuniversitetet" />
-    
+
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,300,400,800' rel='stylesheet' type='text/css'>
-    
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <script src='slides.js' media="screen"></script>
@@ -42,9 +42,9 @@
 	            margin: auto;
 	          }
 	          article.next, article.past {
-	            display: block;    
+	            display: block;
 	          }
-	
+
 				iframe {
 					display: none;
 				}
@@ -58,135 +58,141 @@
 	          }
 	</style>
   </head>
-  
+
 
 
   <body style='display: none'>
 
     <section class='slides layout-widescreen template-default'>
       <!-- http://lights.elliegoulding.com/ -->
-	
+
 	<!-- Första sidan -->
     <article>
        	<h3>
           Klientbaserad webbutveckling, 1DV435
           <br />
-          <span class="small">Linnéuniversitetet, Ht 2013</span>
+          <span class="small">Linnéuniversitetet, Ht 2014</span>
         </h3>
-       
-		
+
+
 		<br /><br />
 		<h1 class="big c">Programmering, JavaScript</h1>
 		<p class="very_small" style="margin-top: 60px;">
-				
+
 		</p>
-		
+
 		<p class="small_footer">
 			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sv">
-					<img alt="Creative Commons-licens" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>&nbsp;&nbsp;Denna presentation är licensierat under en 
-					
+					<img alt="Creative Commons-licens" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>&nbsp;&nbsp;Denna presentation är licensierat under en
+
 						<a rel="license" href="hhttp://creativecommons.org/licenses/by/3.0/deed.sv">Creative Commons Erkännande 3.0 Unported Licens</a>.<br/>
 		</p>
  	</article>
-  		
+
 	<!-- förkunskaper -->
 	<article class="fill">
 		<h3>Förkunskaper och mål</h3>
 		<ul>
 			<li><strong>Utgår från att ingen har programmerat tidigare!</strong></li>
-		</ul>	
-		
+		</ul>
+
 		<ul>
-			<li>Uppnå förståelse för grundläggande begrepp inom programmering</li>
-			<li>Utveckla enklare interaktivitet i webbsida med JavaScript</li>
-			<li>Två laborationer</li>
+			<li>Grundläggande genomgång av programmering i JavaScript</li>
+			<li>Interaktivitet och dynamiska effekter på webbsidor</li>
+			<li>En laboration</li>
 		</ul>
 		<p class="cc">cc From: <a href="http://commons.wikimedia.org/wiki/File%3AS%C3%B3st%C3%B3_forest_path.jpg"> http://commons.wikimedia.org/wiki/File%3AS%C3%B3st%C3%B3_forest_path.jpg</a> </p>
 	<img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/S%C3%B3st%C3%B3_forest_path.jpg" width="50%"/>
-		
-		
-	</article>	
-	
-	
+
+
+	</article>
+
+	<!-- Varför lära sig programmera -->
+	<article class="fill">
+
+		<h3>Varför programmering?</h3>
+
+		<ul>
+			<li>I rollen som interaktionsdesigner kan du komma jobba med programmerare</li>
+		</ul>
+
+		<ul>
+			<li>Kunna förverkliga sina idéer</li>
+			<li>Kreativt skapande</li>
+			<li>Problemlösande</li>
+		</ul>
+		<!--
+		<p class="cc">cc From: <a href="http://www.flickr.com/photos/31floors/">http://www.flickr.com/photos/31floors/</a> 		</p>
+		<img height="600px" src="http://farm6.staticflickr.com/5252/5585767151_693dcbf19a_b.jpg" width="50%"/>
+		-->
+	</article>
+
+	<!-- Vad är programmering -->
+    <article class="fill">
+		<h3>Vad kan datorn göra åt oss</h3>
+
+		<ul>
+			<li>Datorn är dålig på att hitta på saker själv</li>
+			<li>Datorn är dålig på att förstå och tolka saker utan instruktioner</li>
+			<li>Datorn är bra på att komma ihåg saker</li>
+			<li>Datorn är bra på att räkna...snabbt</li>
+			<li>Datorn är bra på att göra samma sak många gånger</li>
+
+			<li><strong>Om du vill att datorn ska utföra något
+				måste du programmera i detalj varje steg som så datorn förstår.</strong></li>
+
+		</ul>
+
+		<p class="cc">cc From: <a href="http://www.flickr.com/photos/whyamikeenan/">http://www.flickr.com/photos/whyamikeenan/</a> </p>
+	<img src="http://farm3.staticflickr.com/2490/3993856676_8b5eb2ef5b_b.jpg" width="50%"/>
+ 	</article>
+
+
 	<!-- Vad är programmering -->
     <article class="fill">
 		<h3>Vad är programmering?</h3>
-		
+
 		<ul>
 			<li>Att programmera är att <strong>tillverka ett recept</strong> som datorn ska följa</li>
-			<li>Ett program innehåller koder som datorn kan	förstå</li>
-			<li>Koderna innehåller <strong>instruktioner som datorn kan utföra</strong> och data(information) som 
+			<li>Ett program innehåller koder i ett språk som datorn kan	förstå</li>
+			<li>Koderna innehåller <strong>instruktioner som datorn kan utföra</strong> och data(information) som
 				datorn kan använda när den utför sina instruktioner.</li>
-			
-			<li>Genom att kunna programmera kan vi få datorn att göra det vi vill</li>
+
 		</ul>
 		<p class="cc">cc From: <a href="http://www.flickr.com/photos/hackny/with/7033121879/"> http://www.flickr.com/photos/hackny/with/7033121879/</a> </p>
 	<img src="http://farm8.staticflickr.com/7211/7033121879_4b647cb949_c.jpg" width="50%"/>
  	</article>
-	
-	<!-- Vad är programmering -->
-    <article class="fill">
-		<h3>Vad kan datorn göra åt oss</h3>
-		
-		<ul>
-			<li>Datorn är bra på att räkna...snabbt</li>
-			<li>Datorn är bra på att göra samma sak många gånger</li>
-			<li>Datorn är dålig på att förstå och tolka saker utan instruktioner</li>
-			<li>Datorn är dålig på att hitta på saker själv</li>
-			<li><strong>Om du vill att datorn ska utföra något
-				måste du programmera i detalj varje steg som så datorn förstår.</strong></li>
-			
-		</ul>
-		
-		<p class="cc">cc From: <a href="http://www.flickr.com/photos/whyamikeenan/">http://www.flickr.com/photos/whyamikeenan/</a> </p>
-	<img src="http://farm3.staticflickr.com/2490/3993856676_8b5eb2ef5b_b.jpg" width="50%"/>
- 	</article>
-	
-	<!-- Varför lära sig programmera -->
-	<article class="fill">
-		
-		<h3>Varför lära sig programmera?</h3>
-		
-		<ul>
-			<li>Kunna programmera/skapa för webben</li>
-			<li>I rollen som interaktionsdesigner kan du komma och jobba med programmerare</li>
-		</ul>
-		
-		<ul>
-			<li>Kreativt skapande</li>
-			<li>Problemlösande</li>
-			<li>För att det är kul! (Oftast)</li>
-		</ul>
-		<p class="cc">cc From: <a href="http://www.flickr.com/photos/31floors/">http://www.flickr.com/photos/31floors/</a> 		</p>
-		<img height="600px" src="http://farm6.staticflickr.com/5252/5585767151_693dcbf19a_b.jpg" width="50%"/>
-		
-	</article>
-	
+
+
+
+
+
 	<!-- programmering här och nu -->
 	<article class="fill">
 		<h3>Programmering - Hur?</h3>
+		<p>En dator förstår egentligen bara ettor och nollor</p>
 		<p>
-		De första datorerna programmerades genom att 
+		De första datorerna programmerades genom att
 		människor själva kopplade om sladdar och tryckte på knappar
 		</p>
 		<p>
 			Hålkort
 		</p>
 		<p>
-			Program representeras oftast med en rad instruktioner uttryckt i ett 
+			Program representeras oftast med en rad instruktioner uttryckt i ett
 			<strong>textuellt språk</strong> med en entydig grammatik. Ett så kallat programmeringsspråk.
-			
+
 		</p>
-	
-		
-		
+
+
+
 		<p class="cc">cc From: <a href="http://www.flickr.com/photos/38659004@N03/">http://www.flickr.com/photos/38659004@N03/</a> 		</p>
 		<img src="http://farm8.staticflickr.com/7316/9491629460_84b218ac7f_b.jpg" width="50%"/>
-		
-		
-		
+
+
+
 	</article>
-	
+
 	<!-- programmeringsspråk -->
 	<article>
 		<h3>Programmeringsspråk</h3>
@@ -200,117 +206,105 @@
 			<li>På webben är det JavaScript som gäller!</li>
 		</ul>
 	</article>
-	
-	
+
+	<!-- Javascript II -->
+	<article>
+		<h1>HTML vs. CSS vs. JavaScript</h1>
+		<ul>
+			<li>HTML - Struktur</li>
+			<li>CSS - Presentation</li>
+			<li>JavaScript - Interaktivitet</li>
+		</ul>
+	</article>
+
 	<!-- JavaScript I -->
 	<article class="fill">
 		<h3>JavaScript</h3>
 		<ul>
-			<li>1995, Livescript</li>
-			<li>JavaScript körs (exekveras) i webbläsaren</li>
-			<li>Netscape Navigator, Internet Explorer</li>
-			
+
+
+
+			<li>1995, Netscape Navigator 2.0</li>
+			<li>Internet Explorer 3.0 (JScript)</li>
+			<li>Ecmascript - standard</li>
+
 			<li>Snabbt växande</li>
-			<li>Viktigt språk för webben</li>
+			<li>Programmeringsspråket för webben</li>
 			<li>JavaScript är INTE Java</li>
-		</ul>	
-		
+		</ul>
+
 		<img src="images/logo.js.png" width="100%"  style="margin-top: -300px" />
-		
+
 	</article>
-	
-	<!-- Javascript II -->
+
 	<article>
-		<h1>Hur ska vi lära oss?</h1>
-		<p>
-			<strong>Kurslitteraturen:</strong> Några år på nacken, använder XHTML ej HTML5
-			<br />
-			<strong>Errata till boken:</strong> <a href="http://www.oreilly.com/catalog/errata.csp?isbn=9780596527464">
-				http://www.oreilly.com/catalog/errata.csp?isbn=9780596527464
-			</a>
-		</p>
-		<p>
-			<strong>MDN:</strong> <a href="https://developer.mozilla.org/en-US/learn/javascript">https://developer.mozilla.org/en-US/learn/javascript</a>
-		</p>
-		<p>
-			<strong>CodeAcadamy:</strong> Interaktiv genomgång<br />
-			<a href="http://www.codecademy.com/tracks/javascript">http://www.codecademy.com/tracks/javascript</a>
-		</p>
-				
-		<p>
-			<strong>JSFiddle:</strong> Testa saker, exempel <a href="http://jsfiddle.net/">http://jsfiddle.net/</a>
-		</p>	
+		<h3>När man lär sig programmera</h3>
 	</article>
-	
+
 	<!-- Att lära sig programmera -->
-	<article class="fill">
-		<h3>Att lära sig programmera</h3>
-	
-		<p class="cc">cc From: <a href="http://www.flickr.com/photos/basykes/">http://www.flickr.com/photos/basykes/</a> 		
+	<article>
+		<p class="c">
+			<img src="http://media.giphy.com/media/bPCwGUF2sKjyE/giphy.gif" width="500" alt="">
 		</p>
-		<img src="http://farm1.staticflickr.com/201/490907537_6724705f74_b.jpg" width="50%"/>
-	
-		
+
 	</article>
-	
-	<!-- Lets start -->
+
 	<article class="fill">
-		<p class="cc">cc From: <a href="http://www.flickr.com/photos/npobre/">http://www.flickr.com/photos/npobre/</a> 			</p>
-		<img src="http://farm4.staticflickr.com/3134/2601582256_b554f0ca41_z.jpg" width="50%"/>
+		<img src="http://www.ohmagif.com/wp-content/uploads/2013/10/trash-truck-garbage-collection-fail.gif" alt="">
 	</article>
-	
+
+	<!-- Grundläggande begrepp -->
+	<article>
+		<h3>I denna kurs</h3>
+		<ol style="font-size: 0.9em">
+			<li>Variabel (Variable)</li>
+			<li>Tilldelning (Assignment)</li>
+			<li>Datatyp (Data Type)</li>
+			<li>Hur vi programmerar mot HTML</li>
+			<li>Hur vi programmerar interaktivitet</li>
+			<li>Hur vi programmerar mot CSS</li>
+			<li>Alternativ/Selektion - (Conditional statements)</li>
+			<li>Repetition/itteration - (loops/loopar)</li>
+			<li>Hur kan vi använda "färdig" javascript i vår sida</li>
+		<ol>
+
+	</article>
+
 	<!-- exempel i cloud9? -->
 	<article class="fill">
 		<h3>Hello World!</h3>
 		<p>
 			Dags att skriva vår första JavaScript-kod!
 		</p>
-		
+
 		<ul>
 			<li>Hur får vi in JavaScript i HTML-koden?</li>
 			<li>Hur testar vi om det fungerar?</li>
 			<li>Hur får vi reda om vi skrivit fel</li>
-		
-		</ul>	
+
+		</ul>
 		<img src="http://farm3.staticflickr.com/2143/2443269075_643cc254a7_z.jpg" />
-		<p class="cc">cc From: <a href="http://www.flickr.com/photos/tml/">http://www.flickr.com/photos/tml/</a> 		</p>	
+		<p class="cc">cc From: <a href="http://www.flickr.com/photos/tml/">http://www.flickr.com/photos/tml/</a> 		</p>
 	</article>
-	
-	<!-- Grundläggande begrepp -->
-	<article>
-		<h3>12 grundläggande begrepp</h3>
-		<ol style="font-size: 0.9em">
-			<li>Variabel (Variable)</li>
-			<li>Tilldelning (Assignment)</li>
-			<li>Värde (Value)</li>
-			<li>Datatyp (Data Type)</li>
-			<li>Uttryck (Statement)</li>
-			<li>Alternativ - (Conditional statements)</li>
-			<li>Operatorer (Operators)</li>
-			<li>Logiska uttryck (Logical operators)</li>
-			<li>Repetitioner - (Loopar/Loops)</li>
-			<li>Array (Array)</li>
-			<li>Funktion (Function)</li>
-			<li>Parameter (Parameter)<li>
-		<ol>
-		
-	</article>
-	
+
+
+
 	<!-- Variabel -->
 	<article>
 		<h3>Variabel</h3>
 		<p>
-			En variabel har ett <strong>variabelnamn</strong> och kan <strong>tilldelas</strong> olika <strong>värden</strong> 
-		</p>
-		<p>
 			En variabel används för att be datorn att komma ihåg
 		</p>
 		<p>
-		 Som en namngiven ”låda” i datorns minne där vi kan spara data. 
+		 	Som en namngiven ”låda” där vi kan spara information.
 		</p>
-		
-		
-		
+		<p>
+			En variabel har ett <strong>variabelnamn</strong> och kan <strong>tilldelas</strong> olika <strong>värden</strong>
+		</p>
+
+
+
+
 		<ul>
 			<li>3 ägg</li>
 			<li>4 dl mjölk</li>
@@ -318,71 +312,71 @@
 			<li>...</li>
 			<li>Blanda äggen och mjölken</li>
 		</ul>
-		
-		
+
+
 	</article>
-	
-	<!-- exempel variabel -->
-	<article>
-		<h3>Variabel (variable) - Exempel</h3>
-		<pre>
-&lt;script type="text/javascript">
-  var egg = 3;
-  var number = 12;
-  var name = "John";
-  var degree_celsius = -4.3;
-&lt;/script></pre>
-	
-		
-<ul>
-	<li>Man deklarerar en variabel (skapar lådan) genom ordet var följt av ett variabelnamn</li>
-	
-	
-	<li>Första tecknet måste vara en bokstav eller ett understeck _ </li>
-	<li>Undvik svenska tecken</li>
-	<li>Ge meningsfylla namn!</li>
-	<li>Det är skillnad på STORA och små bokstäver</li>
-	
-</ul>
-	</article>
-	
+
 	<!-- Tilldelning -->
 	<article>
-		<h3>Tilldelning av värde</h3>
+		<h3>Variabler</h3>
+		<p>Man deklarerar en variabel genom ordet <i>var</i> följt av ett variabelnamn</p>
 		<p>Data sparas i datorns minne genom att <strong>tilldela</strong> variablerna olika <strong>värden</strong></p>
 		<p>Tilldelning görs med hjälp av ett likhetstecken '='</p>
 		<pre>
 &lt;script type="text/javascript">
-  var number = 10;
-  number = 20; // en variabel kan TILLDELAS nytt värde om man vill
-  
-  var books; // en variabel kan DEKLARERAS först utan att få ett värde
-  books = 5; // sedan TILLDELAR man värdet
-  
-  console.log(number); // sedan kan man läsa ut värdet ur variablen
-  
+  var points = 10;
+  points = 20; // en variabel kan TILLDELAS nytt värde om man vill
+
+  var maxPoints; // en variabel kan DEKLARERAS först utan att få ett värde
+  maxPoints = 40; // sedan TILLDELAR man värdet
+
+  alert(points); // sedan kan man läsa ut värdet ur variablen
   ...
-  
-&lt;/script> 
+  alert( (points / maxPoints) * 100); // Sedan används variablerna i koden
+  ...
+&lt;/script>
 
-</pre>	
+</pre>
 	</article>
-		
-	<!-- Gissa värdet -->
+
+	<!-- exempel variabel -->
 	<article>
-		<h3>Test - Gissa värdet!</h3>
-	
-			<iframe width="100%" height="300" src="http://jsfiddle.net/thajo/dcb7W/4/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-			
-		</iframe>
+		<h3>Att namnge en variabel</h3>
+		<pre>
+&lt;script type="text/javascript">
+  var egg = 3;
+  var points = 12;
+  var name = "John";
+  var degreeCelsius = -4.3;
+&lt;/script></pre>
+
+
+<ul>
+
+
+
+	<li>Första tecknet i variabelnamnet måste vara en bokstav eller ett understeck _ </li>
+	<li>Inga mellanslag!</li>
+	<li>Undvik svenska tecken</li>
+	<li>Ge meningsfylla namn!</li>
+	<li>Det är skillnad på STORA och små bokstäver</li>
+
+</ul>
+	</article>
+
+<!-- Exempel number -->
+	<article>
+		<h3>Test</h3>
+		<iframe width="100%" height="550" src="http://jsfiddle.net/du7nU/3/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 	</article>
 
 
-	<!-- Variabels datatyp -->
+<!-- Variabels datatyp -->
 	<article>
 		<h3>En variabels datatyp</h3>
 		<p>
-			Alla värden är av en typ, en datatyp som talar om 
+			Alla värden är av en typ, en datatyp som talar om
 			vad variablen innehåller.
 		</p>
 		<ul>
@@ -393,23 +387,18 @@
 		</ul>
 		<pre>
 &lt;script type="text/javascript">
-  var average = 132.432; 
+  var average = 132.432;
 
   var message = "Welcome to this site!";
 
-  var is_logged_in = false;
+  var isLoggedIn = false;
 
-  var person;			
+  var person;
 &lt;/script></pre>
 	</article>
-	
-	<!-- Exempel number -->
-	<article>
-		<h3>Datatyp Number - Exempel</h3>
-		<iframe width="100%" height="550" src="http://jsfiddle.net/thajo/du7nU/2/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-		
-	</article>
-	
+
+
+
 	<!-- textsträngar -->
 	<article>
 		<h3>Datatyp - textsträngar</h3>
@@ -419,76 +408,167 @@
 			<li>En textsträng deklareras ofta inom <strong>citationstecken</strong>, dubbla eller enkla</li>
 			<li>Textsträngar kan byggas ihop genom att läggas ihop med plustecken</li>
 		</ul>
-		
+
 		<pre>
-var firstname = "Sara";		
-var surname = 'Karlsson';		
+var firstname = "Sara";
+var lastname = 'Karlsson';
 var antal = 10;
 var empty_string = "";
 
-// Skriver ut: Sara Karlsson
-var full_name = firstname +" " +surname; 
+// variablen fullName får värdet "Sara Karlsson"
+var fullName = firstname +" " +lastname;
 
-// Skriver ut: Det finns 10 stycken studenter;
+// Variablen message får värdet "Det finns 10 stycken studenter";
 var message = "Det finns " +antal +" stycken studenter.";</pre>
 	</article>
-	
-	<!-- Gissa textsträng -->
+
+
+	<!-- Gissa värdet -->
 	<article>
-		<h3>Gissa textsträng</h3>
-		<iframe width="100%" height="380" src="http://jsfiddle.net/thajo/du7nU/1/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-	</article>
-	
-	<!-- Exempel funktioner textsträngar -->
-	<article>
-		<h3>Datatyp - textsträngar</h3>
+		<h3>Demo - Räkning med variabler</h3>
 		<p>
-			Det finns många så kallade funktioner och egenskaper som gör att man kan 
-			manipulera eller få ut information om textsträngar
+			Skriv ett program som beräknar skillnaden mellan att köpa en vara för en engångssumma
+			eller att köpa den på avbetalning på ett visst antal månader. Vi kan bortse från räntor ect.
+		</p>
+
+
+	</article>
+
+	<article>
+		<h3>Mer dynamiskt tack!</h3>
+		<p>
+			Vi vill ju att användaren ska kunna skriva in värden och beräkna!
+		</p>
+		<ul>
+			<li>Hur kan vi få in vad användaren skriver i ett formulär in i vårt program?</li>
+			<li>Hur kan vi få beräkningen att ske när användaren trycker på knappen?</li>
+
+		</ul>
+	</article>
+
+	<article>
+		<h3>DOM</h3>
+		<p>
+			När webbläsaren läser in ett HTML-dokument strukturerar den
+			upp det till ett DOM-dokument
+		</p>
+		<p>
+			<img src="http://www.webstepbook.com/supplements/slides/images/dom_tree.gif" alt="">
+		</p>
+		<p>
+			De attribut (id och class) vi sätter inkluderas såklart också
+		</p>
+	</article>
+
+	<article>
+		<h3>getElementById</h3>
+		<p>
+			Enklaste sättet att hämta ett elements värde via javascript är att i HTML-koden sätta ett id på elementet
 		</p>
 		<pre>
-var my_string = "Det blåser i Kalmar";			
+var textInput = document.getElementById("id").value; // letar element som har ett visst id
+// I detta fall är elementet ett input av typen text - Vi kan då plocka ut värdet
+alert(textInput.value);</pre>
 
-// ta reda på hur många tecken strängen innehåller (19)	 		
-var length_of_the_string = my_string.length;
+		<h3>querySelector</h3>
+		<p>Ett annat sätt som gör att du kan komma åt element med t.ex. class är:</p>
+		<pre>
+document.querySelector(".active").value</pre>
 
-// Alla tecken görs om från stora till små bokstäver (om de inte redan är..)
-var lowercase_of_the_string = my_string.toLowerCase();	
-
-// Första tecknet ( D )
-var first_character = my_string.charAt(0);
-
-// Sista tecknet ( r )
-var lastChar = my_string.charAt(my_string.length-1);</pre>
-<p>
-	<a class="medium" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods">
-		https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods
-	</a>
-		
 	</article>
-	
-	
-	<!-- Alternativ -->	
+
+	<article>
+		<h3>DEMO</h3>
+		Skriv om applikationen så vi kan låta användaren skriva in värdena via ett formulär
+
+	</article>
+
+	<!-- Gissa värdet -->
+	<article>
+		<h3>Interaktivitet</h3>
+		<p>I Javascript kan man skriva kod som körs när olika händelser (event) körs.</p>
+		<ul>
+			<li>Användaren trycker på en knapp</li>
+			<li>Användaren trycker på en tangent</li>
+			<li>En textruta får fokus</li>
+			<li>Sidan med dess bilder har laddats färdigt</li>
+		</ul>
+	</article>
+
+	<article>
+		<h3>Hantera ett klick</h3>
+		<p>
+			Jag vill att min kod ska köras när användaren klickar på en knapp eller länk!
+		</p>
+		<p>
+			Vi får binda på händelsen onclick
+		</p>
+		<pre>
+// Vi hämtar en knapp med id:t button
+var button = document.getElementById("button");
+
+button.onclick = function() {
+
+  // allt vi skriver innanför "{" och "}"
+  // körs när knappen trycks på
+
+}
+
+// Alla instruktioner som är mellan de två klammerparanteserna { ... } kommer att ske
+// Windows (alt-gr + 8, alt-gr + 9)
+// Mac (alt + shift + 8, alt + shift + 9)</pre>
+	</article>
+
+	<article>
+		<h3>DEMO</h3>
+		<p>Uppdatera applikationen så beräkningen körs när användaren trycker på knappen</p>
+		<p>Skippa också alert-rutan utan skriv ut det i HTML-dokumentet</p>
+	</article>
+
+	<article>
+		<h3>Ändra CSS med JavaScript</h3>
+		<p>
+			Vi kan naturligtvis ändra stilegenskaperna via javascript
+		</p>
+		<pre>
+document.getElementById("message").style.display = "none";</pre>
+		<h3>DEMO</h3>
+	</article>
+
+<article>
+		<h3>Tips för vidare inlärning</h3>
+		<ul>
+			<li>Demofilmer kommer publiceras...så fort jag hinner</li>
+			<li>Förra årets föreläsningar (se kurshemsida)</li>
+
+			<li><a href="http://www.codecademy.com/tracks/javascript">http://www.codecademy.com/tracks/javascript</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">
+				https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide</a> <br />Kap 1-4 + 7</li>
+		</ul>
+	</article>
+
+
+	<!-- Alternativ -->
 	<article class="fill">
 		<h3>Alternativ (Conditional)</h3>
-		
-				
+
+
 		<img src="http://farm9.staticflickr.com/8121/8638391182_aa483947fa_c.jpg" />
 		<p>
 			Som programmerare ställs man inför problem där man måste kunna
 			skriva olika kod för olika saker.
-			
+
 		</p>
 		<ul>
+			<li>Har användaren skrivit ett nummer eller en textsträng</li>
 			<li>Tryckte användaren på knapp A eller knapp B?</li>
-			<li>Har användaren skrivit ett tal som är större än 18?</li>
-			<li>Har användaren angett en giltig e-postadress?</li>
+			<li>Vill användaren visa eller dölja innehållet?</li>
 			<li>Är provresultatet över gränsen för godkänt?</li>
 			<li>...</li>
 		</ul>
 	</article>
-	
-	<!-- if-sats -->	
+
+	<!-- if-sats -->
 	<article>
 		<h3>if-sats</h3>
 		<p>
@@ -502,46 +582,49 @@ var lastChar = my_string.charAt(my_string.length-1);</pre>
 		</p>
 		<pre>
 var inloggad = true;
-if(inloggad) { 
+if(inloggad) {
    console.log("Användaren är inloggad");
    // Mer kod här sedan...
-}			
+}
 
-// Alla instruktioner som är mellan de två klammerparanteserna { ... } kommer att ske
-// Windows (alt-gr + 8, alt-gr + 9)
-// Mac (alt + shift + 8, alt + shift + 9)
+
 		</pre>
-		
+
 	</article>
-	
-	<!-- operatorer -->	
+
+	<article>
+		<h3>DEMO</h3>
+	</article>
+
+	<!-- operatorer -->
 	<article>
 		<h3>Operatorer (operators)</h3>
 		<p>Vi kommer behöva skriva <strong>uttryck</strong> som kan bli antingen sant eller falskt</p>
 		<ul>
 			<li>Är talet lika med 10?</li>
-			<li>Är talet mindre än 15?</li>
 			<li>Är strängvariablen name lika med "Lisa"?</li>
-			
+			<li>Är talet mindre än 15?</li>
+
+
 		</ul>
 		<pre>
 if(tal === 10) {
  // Gör något
-}	
+}
 if(name === "Lisa") {
  // Gör något
 }
 if(tal &lt; 15) {
  // Gör något
-}		
+}
 		</pre>
 	</article>
-	
+
 	<!-- Operatorer exempel -->
 	<article>
 		<h3>Operatorer</h3>
 		<ul>
-			
+
 			<li><strong>tal1 &lt; tal2</strong> - Mindre än</li>
 			<li><strong>tal1 > tal2</strong> - Större än</li>
 			<li><strong>tal1 === tal2</strong> - Lika med ( boken använder == )</li>
@@ -553,41 +636,41 @@ if(tal &lt; 15) {
 			http://stackoverflow.com/questions/3804005/whats-the-reason-to-use-instead-of-with-typeof-in-javascript
 		</a>
 	</article>
-	
+
 	<!-- Exempel if-sats -->
 	<article>
 		<h3>Exempel</h3>
 <pre>
 var temperatur = 10;
-	
-if(temperatur &lt; 0){ 
-  console.log("Minusgrader"); 
-} 
 
-if(temperatur > 0){ 
- console.log("Plusgrader"); 
-} 
+if(temperatur &lt; 0){
+  console.log("Minusgrader");
+}
 
-if(temperatur === 10){ 
- console.log("Det är tio grader varmt"); 
+if(temperatur > 0){
+ console.log("Plusgrader");
+}
+
+if(temperatur === 10){
+ console.log("Det är tio grader varmt");
 }
 
 if(temperatur &lt;= 10) {
  console.log("Det är 10 grader eller kallare");
 }
-</pre> 
+</pre>
 	</article>
-	
+
 	<!-- Gissa operatorer och if-sats -->
 	<article>
-	
+
 		<iframe width="100%" height="650" src="http://jsfiddle.net/thajo/D8tbu/5/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 	</article>
-	
+
 	<!-- if-ifelse else -->
 	<article>
 		<h3>OM - ANNARS</h3>
-		
+
 		<pre>
 var temp = 10;
 
@@ -598,22 +681,13 @@ else {
   // Talet är mindre eller lika med 10
 }</pre>
 	</article>
-	
+
 	<!-- if-ifelse else -->
 	<article>
 		<iframe width="100%" height="620" src="http://jsfiddle.net/thajo/8REX4/2/embedded/js,result/presentation" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 	</article>
-	
-	
-	<article>
-		<h3>Tips för vidare inlärning</h3>
-		<ul>
-			<li>Boken: Till och med sidan 64</li>
-			<li><a href="http://www.codecademy.com/tracks/javascript">http://www.codecademy.com/tracks/javascript</a></li>
-			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">
-				https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide</a> <br />Kap 1-5 + 7</li>
-		</ul>
-	</article>
+
+
 
 
     </section>

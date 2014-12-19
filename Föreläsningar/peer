@@ -1,0 +1,96 @@
+
+
+1. Din applikation fungerar inte som du tänkt. I consolen hittar du ett felmeddelande som säger: "No 'Access-Control-Allow-Origin' header is present on the requested resource.". Vad har förmodligen hänt?
+A. Du försöker ladda in en statisk resurs (t.ex. via en script-tagg) från en annan domän
+B. Du gör ett anrop via XMLHttpRequest till en annan domän än den du laddat ner skriptet som körs ifrån
+C. Din sida är nedladdad via HTTPS men du försöker göra ett anrop via det mer osäkra HTTP
+D. Du försöker komma åt en sida utan att vara aktoriserad
+E. Du har ingen aning, går och hämtar kaffe och hoppas det löser sig tills du är tillbaka.
+
+2. Hur kan du lösa problemet med XMLHttpRequest same domain policy? (flera svar kan vara rätt)
+A. Genom att tala om att anropen ska ske med JSON
+B. Genom att implementera en CORS-lösning i din klient
+C. Genom att på din server implementera en proxylösning som dina anrop går via
+D. Genom att se till att servern som ska returnera data inkluderar headern "Access-Control-Allow-Origin" satt till att godkänna den domän requesten kommer ifrån.
+
+3. Varför brukas inte JSON with Padding rekommenderas som en lösning på XMLHttpRequest same domain policy?
+A. Det fungerar inte i äldre webbläsare
+B. Det går inte att köra över HTTPS
+C. Det är svårt med felhantering och debugging
+D. Man kan öppna upp för ytterligare attackvektorer
+
+
+4. Hur skulle du definiera "Öppna data"/"Open data"? Flera alternativ KAN vara rätt.
+A. Data som ligger öppet på nätet för nedladdning
+B. Myndigheters data (Goverment data) som öppnats upp för alla att använda utan inskränkningar
+C. Licensfri, Öppen och fri för alla att använda, ändra och dela
+D. Data som inte får användas i kommersiella sammanhang (dvs. ej tjäna pengar på detta data)
+
+5. Vad tycker Du är etiskt OK? (flerval)
+A. Publicera data som visar vilka områden som har hög brottslighet
+B. Publicera data som pekar ut vart dömda personer bor
+C. Publicera data om vart människor befunnit sig för att underlätta brottsutredningar (tänk Google, Apple och telefoners geolocationdata)
+D. Publicera data som kombinerar anmälda stulna objekt med annonser på en annonssite
+
+
+6. Vad menas med PSI-direktivet?
+A. En EU-lag som kräver att alla offentliga myndigheter öppnar upp sin data
+B. En handledning kring hur myndigheter ska publicera öppna data
+C. En rekommendation kring hur myndigheter bör arbeta kring öppna data
+D. En myndighet som övervakar att offentliga handlingar är tillgängliga för alla medborgare
+
+7. I vilka format tycker du det är att rekommendera vid publicering av öppna data.
+A. XLSX (Excel)
+B. CSV (kommaseparerad lista)
+C. XML
+D. JSON
+E. PDF
+F. Bilder på inskannat material i öppet RAW-format
+
+
+8. Arbetet kring öppna data går ganska trögt inom myndigheterna. Vad skulle du tro är största orsaken till detta? (Öppen fråga)
+A. Man är orolig att känsliga uppgifter ska läcka ut (.t.ex. personlig data)
+B. Kostnaden för att hålla kvalité på datan
+C. Svårt att förstå området för utvecklare = Svårt att bygga tjänster kring myndighetsdata
+D. Svårt för entreprenörer att se affärsmöjligheter och kunna tjäna pengar på öppna data
+E. Organisationer som är avgiftsfinansierade genom sin förädlade data vill inte öppna upp den
+F. Inget av ovanstående. Jag tänker på något annat!
+
+
+
+9. Vad av följande stämmer om så kallade webb-API:er (flera kan vara rätt)
+A. Ett webb-API måste vara öppet och fritt att använda
+B. Ett webb-API måste returnera antingen XML eller JSON
+C. Ett webb-API ger större möjligheter att bygga olika tjänster kring samma data
+D. Ett webb-API är skrivet enligt REST (RESTful architecture)
+
+
+
+
+10. Vad används en så kallad API-nyckel vanligtvis till?
+A. Identifierar användaren av en tjänst.
+B. Ger statistik kring hur mycket en tjänst/applikation använder ett API
+C. Används för att aktorisera en användare mot vilka resurser hen får efterfråga
+D. Dekryptera servern publika nyckel vid API-anrop
+
+
+11. Hur kan man programmatiskt upptäcka nya webb-API:er och koppla dessa till sin tjänst?
+A. Via så kallade web hooks
+B. Via UDDI, en standard för att upptäcka Web Services.
+C. Genom att prenumera på feeden "programmableweb"
+D. Det finns i dagsläget inget utvecklat sätt för detta
+
+
+12. Vad menas med uttrycket BaaS? [Slide med de olika]
+A. En modell för att hyra en datalagring som du kan kommunicera via t.ex. API:er
+B. En modell för att hyra en plattform för utveckling med färdig infrastruktur, OS och mellanlager
+C. En modell för att hyra en infrastruktur med skalbara servrar och liknande
+D. En modell för att hyra en applikation som du kan konfigurera efter eget behov
+
+
+13. Det finns olika betalningsmodeller för hur olika tjänster tar betalt för användandet av sitt API. Unit-based, Pay as you gou och tiered. Vad menas med den sista?
+A. Man har olika betalnivåer (t.ex. small, medium, pro, premium) med olika mycket innehåll, t.ex. antal anrop
+B. Man betalar för det man använder t.ex. en viss summa per 1000 anrop
+C. Du betalar för en viss mängd. Skulle du behöva mer under en viss tid kan du betala för tillfällig uppskalning
+D. Du betalar en bunden månadskostnad oavsätt hur mycket du kommer använda
+
